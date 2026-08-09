@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Gamification & Math Apps"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - text: Code (GitHub)
+        href: https://github.com/YOUR_USERNAME/gamification-math-apps-analysis
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap

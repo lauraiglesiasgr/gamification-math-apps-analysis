@@ -1,0 +1,19 @@
+# Data — never commit raw or coded data (size + licensing)
+data/*.csv
+data/*.xlsx
+!data/README.md
+
+# Generated outputs
+outputs/
+_site/
+.quarto/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
