@@ -1,7 +1,7 @@
 # Gamification & Commercial Success in Educational Math Apps
 ### An exploratory data analysis of Google Play Store open data (R)
 
-> Bachelor's thesis (Trabajo Fin de Grado) — *Doble Grado en Educación Primaria + Matemáticas*, Universidad Rey Juan Carlos, 2025–2026.
+> Bachelor's thesis (Trabajo Fin de Grado) — *Grado en Matemáticas*, Universidad Rey Juan Carlos, 2025–2026.
 > Author: **Laura Iglesias García**.
 
 📄 **Live report:** `https://YOUR_USERNAME.github.io/gamification-math-apps-analysis/`
