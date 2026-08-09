@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gamification & Commercial Success in Educational Math Apps",
+    "section": "",
+    "text": "Incorporating game mechanics — gamification — is one of the most common design responses in educational apps. But which mechanics, if any, are actually associated with commercial success (downloads) of primary-school math apps on the Google Play Store? And is popularity a reliable signal of pedagogical quality?\nThis is an observational, cross-sectional study. All results describe statistical associations, not causal relationships."
+  },
+  {
+    "objectID": "index.html#research-question",
+    "href": "index.html#research-question",
+    "title": "Gamification & Commercial Success in Educational Math Apps",
+    "section": "",
+    "text": "Incorporating game mechanics — gamification — is one of the most common design responses in educational apps. But which mechanics, if any, are actually associated with commercial success (downloads) of primary-school math apps on the Google Play Store? And is popularity a reliable signal of pedagogical quality?\nThis is an observational, cross-sectional study. All results describe statistical associations, not causal relationships."
+  },
+  {
+    "objectID": "index.html#data-methods",
+    "href": "index.html#data-methods",
+    "title": "Gamification & Commercial Success in Educational Math Apps",
+    "section": "Data & methods",
+    "text": "Data & methods\n\n\n\n\n\n\n\nStage\nDetail\n\n\n\n\nSource\nGoogle Play Store Apps (Kaggle, gauthamp10, 2021), ~2.3M raw records\n\n\nCleaning\nDeduplication, null handling, Rating Count &gt; 0, numeric coercion\n\n\nTarget population\n4,218 educational math apps via a precision-oriented semantic keyword filter (validated recall gap ≈ 6.4%)\n\n\nSampling\nStratified random sampling on log10-downloads; 4 quartile strata; n = 200 (50/stratum); design weights near-uniform (~21.09), so unweighted OLS is unbiased for the population\n\n\nCoding\n5 binary gamification variables coded by manual interface inspection; inter-rater reliability via Cohen’s kappa (κ = 0.831 after reconciliation)\n\n\nModel\nOLS, log-level form; HC3 robust standard errors; Halvorsen–Palmquist correction for dummy variables\n\n\nDiagnostics\nVIF, Breusch–Pagan, Shapiro–Wilk + Q-Q, Cook’s distance\n\n\nRobustness\nBootstrap (1,000 resamples), exact Fisher test, re-estimation without influential points, Bayesian-shrinkage hyperparameter sensitivity\n\n\n\nThe five gamification mechanics: Levels, Rewards, Ranking, Avatars, Feedback. Controls: Price, adjusted Rating (Bayesian shrinkage), Advertising, In-app purchases (IAP)."
+  },
+  {
+    "objectID": "index.html#key-results-model-i-ols-hc3-robust-errors",
+    "href": "index.html#key-results-model-i-ols-hc3-robust-errors",
+    "title": "Gamification & Commercial Success in Educational Math Apps",
+    "section": "Key results — Model I (OLS, HC3 robust errors)",
+    "text": "Key results — Model I (OLS, HC3 robust errors)\nDependent variable: log10(downloads). n = 200. R²_adj = 0.248; F(9, 190) = 8.28, p &lt; 0.001.\n\n\n\n\n\n\n\n\n\nPredictor\nβ\np\nInterpretation\n\n\n\n\nRewards\n0.986\n0.008 **\n≈ 9.7× downloads — only gamification differentiator\n\n\nIn-app purchases\n0.736\n0.005 **\n≈ 5.4× downloads (freemium effect)\n\n\nAdvertising\n0.501\n0.001 ***\n≈ 3.2× downloads\n\n\nAdjusted rating\n−1.846\n&lt;0.001 ***\nquality ≠ mass popularity\n\n\nFeedback\n−0.343\n0.030 *\nmarks niche / academic apps\n\n\nLevels\n−0.006\n0.979\nnow a baseline “hygiene” feature\n\n\nRanking\n0.445\n0.417\nnot significant\n\n\nAvatars\n−0.436\n0.315\nnot significant\n\n\nPrice\n0.438\n0.052\nmarginal\n\n\n\nReading of the headline finding. Only reward systems are significantly associated with downloads. Applying the Halvorsen–Palmquist correction, (10^0.986 − 1) × 100 ≈ +870%, i.e. apps with reward systems are associated with roughly 9.7× the downloads of comparable apps without them, holding the other factors constant. Levels and Ranking behave as hygiene factors (Herzberg): so standard that their presence no longer differentiates."
+  },
+  {
+    "objectID": "index.html#robustness-of-the-rewards-coefficient",
+    "href": "index.html#robustness-of-the-rewards-coefficient",
+    "title": "Gamification & Commercial Success in Educational Math Apps",
+    "section": "Robustness of the Rewards coefficient",
+    "text": "Robustness of the Rewards coefficient\n\n\n\n\n\n\n\n\nCheck\nResult\nConclusion\n\n\n\n\nDrop influential obs.\nβ = 1.566, p &lt; 0.001, R²_adj = 0.322\nEffect strengthens\n\n\nBootstrap (1,000)\n95% CI [0.17; 1.64]\nExcludes zero\n\n\nExact Fisher (Stratum × Rewards)\np = 0.002\nConcentration in high stratum not random\n\n\nm0 sensitivity (6 values)\nβ ∈ [0.954; 1.006], p &lt; 0.01 throughout\nIndependent of hyperparameter"
+  },
+  {
+    "objectID": "index.html#the-code-illustrative",
+    "href": "index.html#the-code-illustrative",
+    "title": "Gamification & Commercial Success in Educational Math Apps",
+    "section": "The code (illustrative)",
+    "text": "The code (illustrative)\nThe full, ordered scripts live in /R. Two representative excerpts:\nBayesian shrinkage estimator for perceived quality\nvi &lt;- apps$`Rating Count`; Ri &lt;- apps$Rating\nC  &lt;- mean(Ri, na.rm = TRUE)\nm0 &lt;- quantile(vi, 0.75, na.rm = TRUE)\napps$Rating_Adj &lt;- (vi / (vi + m0)) * Ri + (m0 / (vi + m0)) * C\nModel I with HC3 robust standard errors\nmodel_I &lt;- lm(LogMaxInstalls ~ V_Niveles + V_Recompensas + V_Ranking +\n                V_Avatares + V_Feedback + Price + Rating_Adj +\n                ADS_bin + IAP_bin, data = apps)\ncoeftest(model_I, vcov = vcovHC(model_I, type = \"HC3\"))"
+  },
+  {
+    "objectID": "index.html#takeaways",
+    "href": "index.html#takeaways",
+    "title": "Gamification & Commercial Success in Educational Math Apps",
+    "section": "Takeaways",
+    "text": "Takeaways\n\nFor developers: invest in well-integrated reward systems and a freemium model; levels and rankings alone no longer move the needle.\nFor educators: download counts are not a quality signal — the best-rated apps tend to be niche tools with small, loyal audiences.\nLimitation: store metrics capture commercial reach, not learning. Measuring real educational impact would need longitudinal usage data.\n\n\nFull written thesis (Spanish) in /report. Code under MIT license; data obtained from Kaggle (see /data)."
+  },
+  {
+    "objectID": "SETUP.html",
+    "href": "SETUP.html",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "A one-time checklist to get this repository online and the report live on GitHub Pages.\n\n\n\nAdd the thesis PDF as report/TFG_Iglesias_Garcia.pdf.\nConfirm no personal data or local paths are committed (the raw/coded data files are already git-ignored; scripts use relative paths).\nIn _quarto.yml and README.md, replace YOUR_USERNAME with your GitHub handle.\n\n\n\n\ncd gamification-math-apps-analysis\ngit init\ngit add .\ngit commit -m \"Initial commit: TFG gamification analysis (R + Quarto)\"\n\n\n\nCreate an empty public repo on GitHub named gamification-math-apps-analysis (no README/License — this repo has them), then:\ngit remote add origin https://github.com/YOUR_USERNAME/gamification-math-apps-analysis.git\ngit branch -M main\ngit push -u origin main\n\n\n\nOption A — automatic (recommended, no local render). The included Action (.github/workflows/publish.yml) renders index.qmd and pushes the site to a gh-pages branch on every push to main. After the first run finishes: 1. Repo → Settings → Pages. 2. Source: Deploy from a branch → Branch gh-pages → /(root) → Save. 3. Wait ~1 min; your site is at https://YOUR_USERNAME.github.io/gamification-math-apps-analysis/.\nOption B — one command from your machine (needs Quarto installed):\nquarto publish gh-pages\nThis renders locally and pushes to gh-pages in one step.\n\n\n\n# Open the project at its root, then:\nsource(\"R/00_run_all.R\")\nAdd the data files first (see data/README.md). Scripts 03 and 04 need the extra coding files; comment them out in 00_run_all.R if you don’t have them — the modelling chain 05→13 does not depend on them.\n\n\n\n\nAdd the repo and the live report link to LinkedIn (Projects section).\nPin the repo on your GitHub profile.\nLink it in your CV and cover letters (great fit for data-analyst roles).\nOptionally publish a notebook version on Kaggle and deposit the thesis in the URJC institutional repository."
+  },
+  {
+    "objectID": "SETUP.html#before-you-push-clean-up-checklist",
+    "href": "SETUP.html#before-you-push-clean-up-checklist",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "Add the thesis PDF as report/TFG_Iglesias_Garcia.pdf.\nConfirm no personal data or local paths are committed (the raw/coded data files are already git-ignored; scripts use relative paths).\nIn _quarto.yml and README.md, replace YOUR_USERNAME with your GitHub handle."
+  },
+  {
+    "objectID": "SETUP.html#put-the-project-under-version-control",
+    "href": "SETUP.html#put-the-project-under-version-control",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "cd gamification-math-apps-analysis\ngit init\ngit add .\ngit commit -m \"Initial commit: TFG gamification analysis (R + Quarto)\""
+  },
+  {
+    "objectID": "SETUP.html#create-the-github-repository-and-push",
+    "href": "SETUP.html#create-the-github-repository-and-push",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "Create an empty public repo on GitHub named gamification-math-apps-analysis (no README/License — this repo has them), then:\ngit remote add origin https://github.com/YOUR_USERNAME/gamification-math-apps-analysis.git\ngit branch -M main\ngit push -u origin main"
+  },
+  {
+    "objectID": "SETUP.html#publish-the-report-to-github-pages",
+    "href": "SETUP.html#publish-the-report-to-github-pages",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "Option A — automatic (recommended, no local render). The included Action (.github/workflows/publish.yml) renders index.qmd and pushes the site to a gh-pages branch on every push to main. After the first run finishes: 1. Repo → Settings → Pages. 2. Source: Deploy from a branch → Branch gh-pages → /(root) → Save. 3. Wait ~1 min; your site is at https://YOUR_USERNAME.github.io/gamification-math-apps-analysis/.\nOption B — one command from your machine (needs Quarto installed):\nquarto publish gh-pages\nThis renders locally and pushes to gh-pages in one step."
+  },
+  {
+    "objectID": "SETUP.html#optional-run-the-full-analysis",
+    "href": "SETUP.html#optional-run-the-full-analysis",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "# Open the project at its root, then:\nsource(\"R/00_run_all.R\")\nAdd the data files first (see data/README.md). Scripts 03 and 04 need the extra coding files; comment them out in 00_run_all.R if you don’t have them — the modelling chain 05→13 does not depend on them."
+  },
+  {
+    "objectID": "SETUP.html#amplify-it-for-job-applications",
+    "href": "SETUP.html#amplify-it-for-job-applications",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "Add the repo and the live report link to LinkedIn (Projects section).\nPin the repo on your GitHub profile.\nLink it in your CV and cover letters (great fit for data-analyst roles).\nOptionally publish a notebook version on Kaggle and deposit the thesis in the URJC institutional repository."
+  }
+]
