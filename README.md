@@ -4,8 +4,7 @@
 > Bachelor's thesis (Trabajo Fin de Grado) — *Grado en Matemáticas*, Universidad Rey Juan Carlos, 2025–2026.
 > Author: **Laura Iglesias García**.
 
-📄 **Live report:** `https://YOUR_USERNAME.github.io/gamification-math-apps-analysis/`
-*(replace `YOUR_USERNAME` after publishing)*
+📄 **Live report:** https://lauraiglesiasgr.github.io/gamification-math-apps-analysis/
 
 ---
 
