@@ -7,7 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Laura Iglesias García">
-<meta name="dcterms.date" content="2026-08-09">
+<meta name="dcterms.date" content="2026-08-10">
+<meta name="description" content="Do gamification mechanics drive downloads of primary-school math apps? An OLS analysis of 200 Google Play apps in R, with a full robustness protocol. Only reward systems move the needle, and popularity is not a proxy for pedagogical quality.">
 
 <title>Gamification &amp; Commercial Success in Educational Math Apps – Gamification &amp; Math Apps</title>
 <style>
@@ -157,7 +158,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#research-question" id="toc-research-question" class="nav-link active" data-scroll-target="#research-question">Research question</a></li>
   <li><a href="#data-methods" id="toc-data-methods" class="nav-link" data-scroll-target="#data-methods">Data &amp; methods</a></li>
-  <li><a href="#key-results-model-i-ols-hc3-robust-errors" id="toc-key-results-model-i-ols-hc3-robust-errors" class="nav-link" data-scroll-target="#key-results-model-i-ols-hc3-robust-errors">Key results — Model I (OLS, HC3 robust errors)</a></li>
+  <li><a href="#the-data-at-a-glance" id="toc-the-data-at-a-glance" class="nav-link" data-scroll-target="#the-data-at-a-glance">The data at a glance</a></li>
+  <li><a href="#key-results-model-i-ols-hc3-robust-errors" id="toc-key-results-model-i-ols-hc3-robust-errors" class="nav-link" data-scroll-target="#key-results-model-i-ols-hc3-robust-errors">Key results: Model I (OLS, HC3 robust errors)</a></li>
   <li><a href="#robustness-of-the-rewards-coefficient" id="toc-robustness-of-the-rewards-coefficient" class="nav-link" data-scroll-target="#robustness-of-the-rewards-coefficient">Robustness of the Rewards coefficient</a></li>
   <li><a href="#the-code-illustrative" id="toc-the-code-illustrative" class="nav-link" data-scroll-target="#the-code-illustrative">The code (illustrative)</a></li>
   <li><a href="#takeaways" id="toc-takeaways" class="nav-link" data-scroll-target="#takeaways">Takeaways</a></li>
@@ -173,6 +175,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p class="subtitle lead">An exploratory data analysis of Google Play Store open data (R)</p>
 </div>
 
+<div>
+  <div class="description">
+    <p>Do gamification mechanics drive downloads of primary-school math apps? An OLS analysis of 200 Google Play apps in R, with a full robustness protocol. Only reward systems move the needle, and popularity is not a proxy for pedagogical quality.</p>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -187,7 +194,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 9, 2026</p>
+      <p class="date">August 10, 2026</p>
     </div>
   </div>
   
@@ -197,7 +204,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div>
   <div class="abstract">
     <div class="block-title">Abstract</div>
-    <p>Do gamification mechanics drive downloads of primary-school math apps? Using a stratified random sample of 200 apps drawn from a cleaned population of 4,218 educational math apps, I fit a multiple linear regression (OLS) with HC3 robust standard errors and a full diagnostic and robustness protocol in R. Most mechanics show no significant association with downloads; only reward systems act as a genuine differentiator (~9.7x more downloads), a result that holds across four independent robustness checks. The strongest overall driver is the freemium model. Commercial popularity is not a proxy for pedagogical quality.</p>
+    <p>Do gamification mechanics drive downloads of primary-school math apps? Using a stratified random sample of 200 apps drawn from a cleaned population of 4,218 educational math apps, I fit a multiple linear regression (OLS) with HC3 robust standard errors and a full diagnostic and robustness protocol in R. Most mechanics show no significant association with downloads; only reward systems act as a genuine differentiator (roughly 9.7x more downloads), a result that holds across four independent robustness checks. The strongest overall driver is the freemium model. Commercial popularity is not a proxy for pedagogical quality.</p>
   </div>
 </div>
 
@@ -207,7 +214,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="research-question" class="level2">
 <h2 class="anchored" data-anchor-id="research-question">Research question</h2>
-<p>Incorporating game mechanics — <em>gamification</em> — is one of the most common design responses in educational apps. But which mechanics, if any, are actually associated with <strong>commercial success</strong> (downloads) of primary-school math apps on the Google Play Store? And is popularity a reliable signal of pedagogical quality?</p>
+<p>Incorporating game mechanics (gamification) is one of the most common design responses in educational apps. But which mechanics, if any, are actually associated with <strong>commercial success</strong> (downloads) of primary-school math apps on the Google Play Store? And is popularity a reliable signal of pedagogical quality?</p>
 <p>This is an <strong>observational, cross-sectional</strong> study. All results describe <strong>statistical associations</strong>, not causal relationships.</p>
 </section>
 <section id="data-methods" class="level2">
@@ -234,11 +241,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="odd">
 <td>Target population</td>
-<td>4,218 educational <strong>math</strong> apps via a precision-oriented semantic keyword filter (validated recall gap ≈ 6.4%)</td>
+<td>4,218 educational <strong>math</strong> apps via a precision-oriented semantic keyword filter (validated recall gap ~6.4%)</td>
 </tr>
 <tr class="even">
 <td>Sampling</td>
-<td>Stratified random sampling on log10-downloads; 4 quartile strata; n = 200 (50/stratum); design weights near-uniform (~21.09), so unweighted OLS is unbiased for the population</td>
+<td>Stratified random sampling on log10-downloads; 4 quartile strata; n = 200 (50 per stratum); design weights near-uniform (~21.09), so unweighted OLS is unbiased for the population</td>
 </tr>
 <tr class="odd">
 <td>Coding</td>
@@ -246,11 +253,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="even">
 <td>Model</td>
-<td>OLS, log-level form; HC3 robust standard errors; Halvorsen–Palmquist correction for dummy variables</td>
+<td>OLS, log-level form; HC3 robust standard errors; Halvorsen-Palmquist correction for dummy variables</td>
 </tr>
 <tr class="odd">
 <td>Diagnostics</td>
-<td>VIF, Breusch–Pagan, Shapiro–Wilk + Q-Q, Cook’s distance</td>
+<td>VIF, Breusch-Pagan, Shapiro-Wilk + Q-Q, Cook’s distance</td>
 </tr>
 <tr class="even">
 <td>Robustness</td>
@@ -260,8 +267,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 <p>The five gamification mechanics: <strong>Levels, Rewards, Ranking, Avatars, Feedback</strong>. Controls: <strong>Price, adjusted Rating (Bayesian shrinkage), Advertising, In-app purchases (IAP)</strong>.</p>
 </section>
+<section id="the-data-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="the-data-at-a-glance">The data at a glance</h2>
+<p>Before modelling, two patterns are worth seeing directly.</p>
+<div id="fig-igam" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Bar chart of the gamification index across 200 apps: 94 apps (47%) implement no mechanics, and only 10 apps (5%) implement four or five of the five mechanics.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-igam-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/igam_distribution.png" class="img-fluid figure-img" style="width:100.0%" alt="Bar chart of the gamification index across 200 apps: 94 apps (47%) implement no mechanics, and only 10 apps (5%) implement four or five of the five mechanics.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-igam-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Full gamification is the exception: 47% of the 200 apps implement none of the five mechanics, and only 5% implement four or five.
+</figcaption>
+</figure>
+</div>
+<div id="fig-corr" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Heat map of Pearson correlations among the ten model variables; teal cells are positive, red cells negative, with the largest magnitude being 0.56.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-corr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/correlation_matrix.png" class="img-fluid figure-img" style="width:85.0%" alt="Heat map of Pearson correlations among the ten model variables; teal cells are positive, red cells negative, with the largest magnitude being 0.56.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-corr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Gamification mechanics tend to be adopted together (strongest correlation r = 0.56, Levels and Feedback) but stay well below severe collinearity; adjusted rating correlates negatively with downloads (r = -0.35).
+</figcaption>
+</figure>
+</div>
+</section>
 <section id="key-results-model-i-ols-hc3-robust-errors" class="level2">
-<h2 class="anchored" data-anchor-id="key-results-model-i-ols-hc3-robust-errors">Key results — Model I (OLS, HC3 robust errors)</h2>
+<h2 class="anchored" data-anchor-id="key-results-model-i-ols-hc3-robust-errors">Key results: Model I (OLS, HC3 robust errors)</h2>
+<div id="fig-coef" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Forest plot of the nine OLS coefficients with 95% confidence intervals, split into gamification mechanics and controls. Rewards, in-app purchases and advertising are positive and significant; adjusted rating and feedback are negative and significant; levels, ranking and avatars overlap zero.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-coef-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/coefficient_plot.png" class="img-fluid figure-img" style="width:100.0%" alt="Forest plot of the nine OLS coefficients with 95% confidence intervals, split into gamification mechanics and controls. Rewards, in-app purchases and advertising are positive and significant; adjusted rating and feedback are negative and significant; levels, ranking and avatars overlap zero.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-coef-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Only reward systems are a significant gamification differentiator; the freemium model (in-app purchases, advertising) is the strongest overall driver. Adjusted rating and feedback are negative and significant; levels, ranking and avatars are not. OLS, HC3 robust 95% CIs, n = 200.
+</figcaption>
+</figure>
+</div>
 <p>Dependent variable: <code>log10(downloads)</code>. n = 200. R²_adj = 0.248; F(9, 190) = 8.28, p &lt; 0.001.</p>
 <table class="table-striped table-hover caption-top table">
 <colgroup>
@@ -283,35 +324,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Rewards</td>
 <td>0.986</td>
 <td>0.008 **</td>
-<td>≈ 9.7× downloads — only gamification differentiator</td>
+<td>~9.7x downloads, the only gamification differentiator</td>
 </tr>
 <tr class="even">
 <td>In-app purchases</td>
 <td>0.736</td>
 <td>0.005 **</td>
-<td>≈ 5.4× downloads (freemium effect)</td>
+<td>~5.4x downloads (freemium effect)</td>
 </tr>
 <tr class="odd">
 <td>Advertising</td>
 <td>0.501</td>
 <td>0.001 ***</td>
-<td>≈ 3.2× downloads</td>
+<td>~3.2x downloads</td>
 </tr>
 <tr class="even">
 <td>Adjusted rating</td>
-<td>−1.846</td>
+<td>-1.846</td>
 <td>&lt;0.001 ***</td>
-<td>quality ≠ mass popularity</td>
+<td>quality is not mass popularity</td>
 </tr>
 <tr class="odd">
 <td>Feedback</td>
-<td>−0.343</td>
+<td>-0.343</td>
 <td>0.030 *</td>
 <td>marks niche / academic apps</td>
 </tr>
 <tr class="even">
 <td>Levels</td>
-<td>−0.006</td>
+<td>-0.006</td>
 <td>0.979</td>
 <td>now a baseline “hygiene” feature</td>
 </tr>
@@ -323,7 +364,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="even">
 <td>Avatars</td>
-<td>−0.436</td>
+<td>-0.436</td>
 <td>0.315</td>
 <td>not significant</td>
 </tr>
@@ -335,7 +376,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 </tbody>
 </table>
-<p><strong>Reading of the headline finding.</strong> Only <strong>reward systems</strong> are significantly associated with downloads. Applying the Halvorsen–Palmquist correction, <code>(10^0.986 − 1) × 100 ≈ +870%</code>, i.e.&nbsp;apps with reward systems are associated with roughly <strong>9.7× the downloads</strong> of comparable apps without them, holding the other factors constant. Levels and Ranking behave as <strong>hygiene factors</strong> (Herzberg): so standard that their presence no longer differentiates.</p>
+<p><strong>Reading of the headline finding.</strong> Only <strong>reward systems</strong> are significantly associated with downloads. Applying the Halvorsen-Palmquist correction, <code>(10^0.986 - 1) * 100</code> works out to about +870%, meaning apps with reward systems are associated with roughly <strong>9.7x the downloads</strong> of comparable apps without them, holding the other factors constant. Levels and Ranking behave as <strong>hygiene factors</strong> (Herzberg): so standard that their presence no longer differentiates.</p>
 </section>
 <section id="robustness-of-the-rewards-coefficient" class="level2">
 <h2 class="anchored" data-anchor-id="robustness-of-the-rewards-coefficient">Robustness of the Rewards coefficient</h2>
@@ -364,13 +405,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Excludes zero</td>
 </tr>
 <tr class="odd">
-<td>Exact Fisher (Stratum × Rewards)</td>
+<td>Exact Fisher (Stratum by Rewards)</td>
 <td>p = 0.002</td>
 <td>Concentration in high stratum not random</td>
 </tr>
 <tr class="even">
 <td>m0 sensitivity (6 values)</td>
-<td>β ∈ [0.954; 1.006], p &lt; 0.01 throughout</td>
+<td>β in [0.954; 1.006], p &lt; 0.01 throughout</td>
 <td>Independent of hyperparameter</td>
 </tr>
 </tbody>
@@ -394,7 +435,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
 <ul>
 <li><strong>For developers:</strong> invest in well-integrated reward systems and a freemium model; levels and rankings alone no longer move the needle.</li>
-<li><strong>For educators:</strong> download counts are <em>not</em> a quality signal — the best-rated apps tend to be niche tools with small, loyal audiences.</li>
+<li><strong>For educators:</strong> download counts are <em>not</em> a quality signal, since the best-rated apps tend to be niche tools with small, loyal audiences.</li>
 <li><strong>Limitation:</strong> store metrics capture commercial reach, not learning. Measuring real educational impact would need longitudinal usage data.</li>
 </ul>
 <hr>
