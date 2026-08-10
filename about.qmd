@@ -1,0 +1,43 @@
+---
+title: "Laura Iglesias García"
+subtitle: "Junior Data Analyst · Business Intelligence"
+image: profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/laura-iglesias-g
+    - icon: envelope
+      text: Email
+      href: mailto:lauraiglesiasgarcia23@outlook.es
+    - icon: github
+      text: GitHub
+      href: https://github.com/lauraiglesiasgr
+    - icon: file-earmark-text
+      text: Thesis (PDF)
+      href: https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/blob/main/report/TFG_Iglesias_Garcia.pdf
+---
+
+I am a Mathematics graduate from Universidad Rey Juan Carlos (Madrid), where I
+completed a dual degree in Mathematics and Primary Education. I work at the point
+where statistics meets clear communication: turning messy, large-scale data into
+decisions that non-technical people can act on.
+
+During a 676-hour Business Intelligence internship at PKF Attest, I collected,
+cleaned and modelled data from SQL Server, MySQL and Navision into Power BI
+dashboards across three client accounts, and presented the results directly to
+business stakeholders. I work mainly in Power BI, R, Python and SQL.
+
+This site is one of my two Bachelor's theses: An exploratory data analysis in R of
+what drives downloads of educational math apps, with a full diagnostic and
+robustness protocol. I care about reproducibility and about being honest regarding
+what data can and cannot say.
+
+I am available from September 2026 and open to relocating, with a particular
+interest in data and BI roles in Switzerland. As an EU national, I do not need a
+Swiss work permit.
+
+**Languages:** Spanish (native), English (C1), French (basic).
