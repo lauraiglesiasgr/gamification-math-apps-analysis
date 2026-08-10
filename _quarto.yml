@@ -4,12 +4,19 @@ project:
 
 website:
   title: "Gamification & Math Apps"
+  site-url: https://lauraiglesiasgr.github.io/gamification-math-apps-analysis/
+  description: >
+    Do gamification mechanics drive downloads of primary-school math apps?
+    An exploratory OLS analysis of 200 Google Play apps in R.
+  image: figures/coefficient_plot.png
+  open-graph: true
+  twitter-card: true
   navbar:
     right:
       - href: index.qmd
         text: Home
       - text: Code (GitHub)
-        href: https://github.com/YOUR_USERNAME/gamification-math-apps-analysis
+        href: https://github.com/lauraiglesiasgr/gamification-math-apps-analysis
 
 format:
   html:
