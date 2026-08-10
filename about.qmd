@@ -1,7 +1,7 @@
 ---
 title: "Laura Iglesias García"
 subtitle: "Junior Data Analyst · Business Intelligence"
-image: profile.jpg
+image: IMG_4171.jpeg
 about:
   template: trestles
   image-shape: round
