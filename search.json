@@ -56,6 +56,13 @@
     "text": "Takeaways\n\nFor developers: invest in well-integrated reward systems and a freemium model; levels and rankings alone no longer move the needle.\nFor educators: download counts are not a quality signal, since the best-rated apps tend to be niche tools with small, loyal audiences.\nLimitation: store metrics capture commercial reach, not learning. Measuring real educational impact would need longitudinal usage data.\n\n\nFull written thesis (Spanish) in /report. Code under MIT license; data obtained from Kaggle (see /data)."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Laura Iglesias García",
+    "section": "",
+    "text": "I am a Mathematics graduate from Universidad Rey Juan Carlos (Madrid), where I completed a dual degree in Mathematics and Primary Education. I work at the point where statistics meets clear communication: turning messy, large-scale data into decisions that non-technical people can act on.\nDuring a 676-hour Business Intelligence internship at PKF Attest, I collected, cleaned and modelled data from SQL Server, MySQL and Navision into Power BI dashboards across three client accounts, and presented the results directly to business stakeholders. I work mainly in Power BI, R, Python and SQL.\nThis site is one of my two Bachelor’s theses: An exploratory data analysis in R of what drives downloads of educational math apps, with a full diagnostic and robustness protocol. I care about reproducibility and about being honest regarding what data can and cannot say.\nI am available from September 2026 and open to relocating, with a particular interest in data and BI roles in Switzerland. As an EU national, I do not need a Swiss work permit.\nLanguages: Spanish (native), English (C1), French (basic)."
+  },
+  {
     "objectID": "SETUP.html",
     "href": "SETUP.html",
     "title": "Setup & publishing guide",
