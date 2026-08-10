@@ -15,13 +15,7 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - text: Code (GitHub)
         href: https://github.com/lauraiglesiasgr/gamification-math-apps-analysis
-
-format:
-  html:
-    theme: cosmo
-    toc: true
-    toc-depth: 3
-    code-copy: true
-    code-overflow: wrap
