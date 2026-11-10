@@ -67,7 +67,7 @@ apps and exploratory OLS analysis.
 The project examines model assumptions and robustness, while
 distinguishing commercial popularity from educational quality.
 
-[Read the case study](gamification.qmd)
+[Read the case study](gamification.qmd) ·
 [Explore the code](https://github.com/lauraiglesiasgr/gamification-math-apps-analysis) ·
 [Read the thesis](https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/blob/main/report/TFG_Iglesias_Garcia.pdf)
 
