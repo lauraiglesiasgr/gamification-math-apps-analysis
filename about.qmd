@@ -67,7 +67,7 @@ apps and exploratory OLS analysis.
 The project examines model assumptions and robustness, while
 distinguishing commercial popularity from educational quality.
 
-[Read the case study](index.qmd) ·
+[Read the case study](gamification.qmd)
 [Explore the code](https://github.com/lauraiglesiasgr/gamification-math-apps-analysis) ·
 [Read the thesis](https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/blob/main/report/TFG_Iglesias_Garcia.pdf)
 
@@ -113,7 +113,7 @@ Academic work in mathematics, statistics and programming,
 including an R-based bachelor's thesis on gamification features
 and downloads of educational mathematics apps.
 
-[Explore the thesis project](index.qmd)
+[Explore the thesis project](gamification.qmd)
 
 ### Bachelor's Degree in Primary Education
 
@@ -133,8 +133,7 @@ qualifications within a six-year double-degree programme.
 - French: basic.
 - German: beginner, learning since August 2026.
 - Spanish citizen (EU).
-- Available immediately and willing to relocate to Switzerland
-  or elsewhere in Europe.
+- Available immediately.
 
 ## Contact
 
