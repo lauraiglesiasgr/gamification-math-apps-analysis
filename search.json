@@ -2,58 +2,51 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Gamification & Commercial Success in Educational Math Apps",
+    "title": "Laura Iglesias García",
     "section": "",
-    "text": "Incorporating game mechanics (gamification) is one of the most common design responses in educational apps. But which mechanics, if any, are actually associated with commercial success (downloads) of primary-school math apps on the Google Play Store? And is popularity a reliable signal of pedagogical quality?\nThis is an observational, cross-sectional study. All results describe statistical associations, not causal relationships."
+    "text": "I am a Mathematics graduate with practical Business Intelligence experience at PKF Attest, where I worked on live client projects involving data preparation, modelling and reporting.\nI work mainly with Power BI and SQL, with Python and R for analysis. I am seeking a junior Data Analyst or BI Analyst role in an international, English-speaking team.\n** Available immediately · Spanish citizen (EU)**\nAbout me · LinkedIn · Email"
   },
   {
-    "objectID": "index.html#research-question",
-    "href": "index.html#research-question",
-    "title": "Gamification & Commercial Success in Educational Math Apps",
+    "objectID": "index.html#reliable-data.-clear-analysis.-useful-reporting.",
+    "href": "index.html#reliable-data.-clear-analysis.-useful-reporting.",
+    "title": "Laura Iglesias García",
     "section": "",
-    "text": "Incorporating game mechanics (gamification) is one of the most common design responses in educational apps. But which mechanics, if any, are actually associated with commercial success (downloads) of primary-school math apps on the Google Play Store? And is popularity a reliable signal of pedagogical quality?\nThis is an observational, cross-sectional study. All results describe statistical associations, not causal relationships."
+    "text": "I am a Mathematics graduate with practical Business Intelligence experience at PKF Attest, where I worked on live client projects involving data preparation, modelling and reporting.\nI work mainly with Power BI and SQL, with Python and R for analysis. I am seeking a junior Data Analyst or BI Analyst role in an international, English-speaking team.\n** Available immediately · Spanish citizen (EU)**\nAbout me · LinkedIn · Email"
   },
   {
-    "objectID": "index.html#data-methods",
-    "href": "index.html#data-methods",
-    "title": "Gamification & Commercial Success in Educational Math Apps",
-    "section": "Data & methods",
-    "text": "Data & methods\n\n\n\n\n\n\n\nStage\nDetail\n\n\n\n\nSource\nGoogle Play Store Apps (Kaggle, gauthamp10, 2021), ~2.3M raw records\n\n\nCleaning\nDeduplication, null handling, Rating Count &gt; 0, numeric coercion\n\n\nTarget population\n4,218 educational math apps via a precision-oriented semantic keyword filter (validated recall gap ~6.4%)\n\n\nSampling\nStratified random sampling on log10-downloads; 4 quartile strata; n = 200 (50 per stratum); design weights near-uniform (~21.09), so unweighted OLS is unbiased for the population\n\n\nCoding\n5 binary gamification variables coded by manual interface inspection; inter-rater reliability via Cohen’s kappa (κ = 0.831 after reconciliation)\n\n\nModel\nOLS, log-level form; HC3 robust standard errors; Halvorsen-Palmquist correction for dummy variables\n\n\nDiagnostics\nVIF, Breusch-Pagan, Shapiro-Wilk + Q-Q, Cook’s distance\n\n\nRobustness\nBootstrap (1,000 resamples), exact Fisher test, re-estimation without influential points, Bayesian-shrinkage hyperparameter sensitivity\n\n\n\nThe five gamification mechanics: Levels, Rewards, Ranking, Avatars, Feedback. Controls: Price, adjusted Rating (Bayesian shrinkage), Advertising, In-app purchases (IAP)."
+    "objectID": "index.html#business-intelligence-experience",
+    "href": "index.html#business-intelligence-experience",
+    "title": "Laura Iglesias García",
+    "section": "Business Intelligence experience",
+    "text": "Business Intelligence experience\nPKF Attest · Madrid · Business Intelligence Intern · 676 hours\nThe only intern in an eight-person BI team, working across three live client accounts.\n\nDeveloped Power BI dashboards and DAX calculations.\nPrepared data with Power Query and worked with SQL Server stored procedures and data models.\nInvestigated duplicate records affecting reconciliation between two source systems.\nIndependently designed a client tracking report, from requirements discussions to reporting pages.\nPresented dashboards and trained business users.\n\nRead more about my experience"
   },
   {
-    "objectID": "index.html#the-data-at-a-glance",
-    "href": "index.html#the-data-at-a-glance",
-    "title": "Gamification & Commercial Success in Educational Math Apps",
-    "section": "The data at a glance",
-    "text": "The data at a glance\nBefore modelling, two patterns are worth seeing directly.\n\n\n\n\n\n\nFigure 1: Full gamification is the exception: 47% of the 200 apps implement none of the five mechanics, and only 5% implement four or five.\n\n\n\n\n\n\n\n\n\nFigure 2: Gamification mechanics tend to be adopted together (strongest correlation r = 0.56, Levels and Feedback) but stay well below severe collinearity; adjusted rating correlates negatively with downloads (r = -0.35)."
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "Laura Iglesias García",
+    "section": "Selected projects",
+    "text": "Selected projects\n\nGamification & Commercial Success in Educational Math Apps\nMathematics bachelor’s thesis · R · Statistical analysis\nWhich gamification features are associated with app downloads?\nAn exploratory analysis of 200 educational mathematics apps, using multiple linear regression, HC3 robust standard errors and sensitivity analyses.\nDemonstrates: data preparation, statistical modelling, diagnostics and interpretation.\nExplore the case study · View the code\n\n\nClimate Trends in Spain and Europe\nPKF Attest project · End-to-end analysis · Published company report\nAnalysed temperature and precipitation trends across Spain and Europe, from source data through to short and long client reports. The report was subsequently published by PKF Attest.\nDemonstrates: analysis of real-world data, interpretation of trends and communication of findings.\n\n\nMathematical Flexibility in Primary Education\nPrimary Education bachelor’s thesis · Mixed methods · JASP\nDesigned a five-session classroom study combining written assessments, structured observation and qualitative records. The follow-up sample comprised 15 participants within a class of 22.\nDemonstrates: research design, structured data collection, statistical analysis and critical evaluation of measurement.\nPortfolio case study under review."
   },
   {
-    "objectID": "index.html#key-results-model-i-ols-hc3-robust-errors",
-    "href": "index.html#key-results-model-i-ols-hc3-robust-errors",
-    "title": "Gamification & Commercial Success in Educational Math Apps",
-    "section": "Key results: Model I (OLS, HC3 robust errors)",
-    "text": "Key results: Model I (OLS, HC3 robust errors)\n\n\n\n\n\n\nFigure 3: Only reward systems are a significant gamification differentiator; the freemium model (in-app purchases, advertising) is the strongest overall driver. Adjusted rating and feedback are negative and significant; levels, ranking and avatars are not. OLS, HC3 robust 95% CIs, n = 200.\n\n\n\nDependent variable: log10(downloads). n = 200. R²_adj = 0.248; F(9, 190) = 8.28, p &lt; 0.001.\n\n\n\n\n\n\n\n\n\nPredictor\nβ\np\nInterpretation\n\n\n\n\nRewards\n0.986\n0.008 **\n~9.7x downloads, the only gamification differentiator\n\n\nIn-app purchases\n0.736\n0.005 **\n~5.4x downloads (freemium effect)\n\n\nAdvertising\n0.501\n0.001 ***\n~3.2x downloads\n\n\nAdjusted rating\n-1.846\n&lt;0.001 ***\nquality is not mass popularity\n\n\nFeedback\n-0.343\n0.030 *\nmarks niche / academic apps\n\n\nLevels\n-0.006\n0.979\nnow a baseline “hygiene” feature\n\n\nRanking\n0.445\n0.417\nnot significant\n\n\nAvatars\n-0.436\n0.315\nnot significant\n\n\nPrice\n0.438\n0.052\nmarginal\n\n\n\nReading of the headline finding. Only reward systems are significantly associated with downloads. Applying the Halvorsen-Palmquist correction, (10^0.986 - 1) * 100 works out to about +870%, meaning apps with reward systems are associated with roughly 9.7x the downloads of comparable apps without them, holding the other factors constant. Levels and Ranking behave as hygiene factors (Herzberg): so standard that their presence no longer differentiates."
+    "objectID": "index.html#technical-focus",
+    "href": "index.html#technical-focus",
+    "title": "Laura Iglesias García",
+    "section": "Technical focus",
+    "text": "Technical focus\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nBusiness Intelligence\nPower BI, DAX\n\n\nData preparation and integration\nPower Query, SSIS, Azure Data Factory\n\n\nDatabases and modelling\nSQL, SQL Server\n\n\nAnalysis and statistics\nPython, R, JASP"
   },
   {
-    "objectID": "index.html#robustness-of-the-rewards-coefficient",
-    "href": "index.html#robustness-of-the-rewards-coefficient",
-    "title": "Gamification & Commercial Success in Educational Math Apps",
-    "section": "Robustness of the Rewards coefficient",
-    "text": "Robustness of the Rewards coefficient\n\n\n\n\n\n\n\n\nCheck\nResult\nConclusion\n\n\n\n\nDrop influential obs.\nβ = 1.566, p &lt; 0.001, R²_adj = 0.322\nEffect strengthens\n\n\nBootstrap (1,000)\n95% CI [0.17; 1.64]\nExcludes zero\n\n\nExact Fisher (Stratum by Rewards)\np = 0.002\nConcentration in high stratum not random\n\n\nm0 sensitivity (6 values)\nβ in [0.954; 1.006], p &lt; 0.01 throughout\nIndependent of hyperparameter"
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Laura Iglesias García",
+    "section": "Education",
+    "text": "Education\nBSc in Mathematics\nUniversidad Rey Juan Carlos · 2020–2026 · 240 ECTS\nBachelor’s Degree in Primary Education\nUniversidad Rey Juan Carlos · 2020–2026 · 240 ECTS\nTwo separate qualifications completed concurrently through a six-year double-degree programme.\nMore about my background"
   },
   {
-    "objectID": "index.html#the-code-illustrative",
-    "href": "index.html#the-code-illustrative",
-    "title": "Gamification & Commercial Success in Educational Math Apps",
-    "section": "The code (illustrative)",
-    "text": "The code (illustrative)\nThe full, ordered scripts live in /R. Two representative excerpts:\nBayesian shrinkage estimator for perceived quality\nvi &lt;- apps$`Rating Count`; Ri &lt;- apps$Rating\nC  &lt;- mean(Ri, na.rm = TRUE)\nm0 &lt;- quantile(vi, 0.75, na.rm = TRUE)\napps$Rating_Adj &lt;- (vi / (vi + m0)) * Ri + (m0 / (vi + m0)) * C\nModel I with HC3 robust standard errors\nmodel_I &lt;- lm(LogMaxInstalls ~ V_Niveles + V_Recompensas + V_Ranking +\n                V_Avatares + V_Feedback + Price + Rating_Adj +\n                ADS_bin + IAP_bin, data = apps)\ncoeftest(model_I, vcov = vcovHC(model_I, type = \"HC3\"))"
-  },
-  {
-    "objectID": "index.html#takeaways",
-    "href": "index.html#takeaways",
-    "title": "Gamification & Commercial Success in Educational Math Apps",
-    "section": "Takeaways",
-    "text": "Takeaways\n\nFor developers: invest in well-integrated reward systems and a freemium model; levels and rankings alone no longer move the needle.\nFor educators: download counts are not a quality signal, since the best-rated apps tend to be niche tools with small, loyal audiences.\nLimitation: store metrics capture commercial reach, not learning. Measuring real educational impact would need longitudinal usage data.\n\n\nFull written thesis (Spanish) in /report. Code under MIT license; data obtained from Kaggle (see /data)."
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Laura Iglesias García",
+    "section": "Contact",
+    "text": "Contact\nInterested in discussing a junior opportunity in Data Analytics, Business Intelligence or applied research?\nEmail me · Connect on LinkedIn · Explore my GitHub"
   },
   {
     "objectID": "about.html",
