@@ -56,13 +56,6 @@
     "text": "Takeaways\n\nFor developers: invest in well-integrated reward systems and a freemium model; levels and rankings alone no longer move the needle.\nFor educators: download counts are not a quality signal, since the best-rated apps tend to be niche tools with small, loyal audiences.\nLimitation: store metrics capture commercial reach, not learning. Measuring real educational impact would need longitudinal usage data.\n\n\nFull written thesis (Spanish) in /report. Code under MIT license; data obtained from Kaggle (see /data)."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Laura Iglesias García",
-    "section": "",
-    "text": "The part of Business Intelligence I care about most is the part nobody sees: knowing where a number comes from before it reaches a dashboard someone uses to make a decision.\nI learned that over 676 hours in the BI team at PKF Attest, the only intern in a team of eight, working across three live client accounts. On one of them the figures would not reconcile: data was arriving from two systems that had never been centralised, so records were counted twice and every calculation on top of them was wrong. Finding that is not glamorous, but it is the difference between a report people trust and one they quietly stop opening.\nThe other half of the job is being understood. Clients often ask for a chart their data cannot support, so I study the dataset first and then walk them through what is actually there. I trained as a teacher alongside my Mathematics degree, which is where that habit comes from, and the Mathematics is why I am comfortable being asked whether a result is significant, not just whether the chart looks right. I work mainly in Power BI and SQL, with Python and R for analysis.\nThis site is one of my two Bachelor’s theses: an exploratory analysis in R of what drives downloads of educational math apps. The short answer is that only reward systems are linked to more downloads, and popularity is not a proxy for quality, a finding that survives a full robustness protocol.\nI am looking for a junior Data Analyst or BI role in an international, English-speaking data team, with technical depth and room to grow. I am open across Europe. As an EU citizen, I do not need a work permit.\nLanguages: Spanish (native), English (C1), French (basic)."
-  },
-  {
     "objectID": "SETUP.html",
     "href": "SETUP.html",
     "title": "Setup & publishing guide",
@@ -110,5 +103,54 @@
     "title": "Setup & publishing guide",
     "section": "",
     "text": "Add the repo and the live report link to LinkedIn (Projects section).\nPin the repo on your GitHub profile.\nLink it in your CV and cover letters (great fit for data-analyst roles).\nOptionally publish a notebook version on Kaggle and deposit the thesis in the URJC institutional repository."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Laura Iglesias García",
+    "section": "",
+    "text": "I am a Mathematics graduate with practical Business Intelligence experience at PKF Attest. I work mainly with Power BI and SQL, with Python and R for analysis. I also hold a separate bachelor’s degree in Primary Education.\nI am looking for a junior Data Analyst or BI Analyst role in an international, English-speaking team, particularly in Switzerland. I am based in Madrid, available immediately and willing to relocate.\nExplore my projects · Get in touch"
+  },
+  {
+    "objectID": "about.html#business-intelligence-experience",
+    "href": "about.html#business-intelligence-experience",
+    "title": "Laura Iglesias García",
+    "section": "Business Intelligence experience",
+    "text": "Business Intelligence experience\n\nPKF Attest · Madrid\nBusiness Intelligence Intern · 676 hours\nAs the only intern in an eight-person BI team, I worked across three live client accounts, contributing to data preparation, modelling, reporting and visualisation.\n\nDeveloped Power BI dashboards and DAX calculations for client reporting.\nPrepared and transformed data with Power Query and worked with SQL Server stored procedures and data models.\nInvestigated a reconciliation issue involving two source systems, identified duplicate records, corrected them and added checks to prevent recurrence.\nIndependently designed a client tracking report, from discussing requirements to building billing and customer quality reporting pages.\nPresented dashboards to clients and trained business users.\n\nThe work I find most rewarding is making reporting trustworthy: understanding where a number comes from, checking how it is calculated and explaining what it can support."
+  },
+  {
+    "objectID": "about.html#selected-projects",
+    "href": "about.html#selected-projects",
+    "title": "Laura Iglesias García",
+    "section": "Selected projects",
+    "text": "Selected projects\n\nGamification & Commercial Success in Educational Math Apps\nMathematics bachelor’s thesis · R · Statistical analysis\nInvestigated how gamification features relate to downloads of educational mathematics apps, using a sample of 200 Google Play apps and exploratory OLS analysis.\nThe project examines model assumptions and robustness, while distinguishing commercial popularity from educational quality.\nRead the case study · Explore the code · Read the thesis\n\n\nClimate Trends in Spain and Europe\nPKF Attest project · Data analysis · Published company report\nCarried out the end-to-end analysis of temperature and precipitation trends across Spain and Europe for a report later published by PKF Attest. The work covered source data through to short and long report formats for clients.\n\n\nMathematical Flexibility in Primary Education\nPrimary Education bachelor’s thesis · Mixed methods · JASP\nDesigned and evaluated a five-session classroom study combining written assessments, structured observation and qualitative records. The study followed 15 participants selected through stratified sampling within a class of 22.\nThe case study examines analytical choices, aggregate findings and the limits of different assessment formats. Its portfolio adaptation is currently under review."
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "Laura Iglesias García",
+    "section": "Technical skills",
+    "text": "Technical skills\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nReporting and visualisation\nPower BI, DAX\n\n\nData preparation\nPower Query\n\n\nDatabases and modelling\nSQL, SQL Server, stored procedures, data models\n\n\nData integration\nSSIS, Azure Data Factory\n\n\nAnalysis and statistics\nPython, R, JASP"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Laura Iglesias García",
+    "section": "Education",
+    "text": "Education\n\nBSc in Mathematics\nUniversidad Rey Juan Carlos · 2020–2026 · 240 ECTS\nAcademic work in mathematics, statistics and programming, including an R-based bachelor’s thesis on gamification features and downloads of educational mathematics apps.\nExplore the thesis project\n\n\nBachelor’s Degree in Primary Education\nUniversidad Rey Juan Carlos · 2020–2026 · 240 ECTS\nTraining in teaching, assessment and inclusive education. My bachelor’s thesis combined quantitative and qualitative methods to investigate mathematical flexibility.\nBoth degrees were completed concurrently as two separate qualifications within a six-year double-degree programme."
+  },
+  {
+    "objectID": "about.html#languages-mobility",
+    "href": "about.html#languages-mobility",
+    "title": "Laura Iglesias García",
+    "section": "Languages & mobility",
+    "text": "Languages & mobility\n\nSpanish: native.\nEnglish: C1.\nFrench: basic.\nGerman: beginner, learning since August 2026.\nSpanish citizen (EU).\nAvailable immediately and willing to relocate to Switzerland or elsewhere in Europe."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "Laura Iglesias García",
+    "section": "Contact",
+    "text": "Contact\nFor junior opportunities in Data Analytics, Business Intelligence or applied research:\nEmail · LinkedIn · GitHub"
   }
 ]
