@@ -3,19 +3,36 @@ project:
   output-dir: _site
 
 website:
-  title: "Gamification & Math Apps"
+  title: "Laura Iglesias García"
   site-url: https://lauraiglesiasgr.github.io/gamification-math-apps-analysis/
   description: >
-    Do gamification mechanics drive downloads of primary-school math apps?
-    An exploratory OLS analysis of 200 Google Play apps in R.
-  image: figures/coefficient_plot.png
+    Mathematics graduate with Business Intelligence experience.
+    Power BI, SQL, Python and R.
+    Portfolio of data analysis and applied research projects.
   open-graph: true
   twitter-card: true
+
   navbar:
-    right:
+    left:
       - href: index.qmd
         text: Home
+      - href: gamification.qmd
+        text: Gamification Analysis
       - href: about.qmd
         text: About
-      - text: Code (GitHub)
-        href: https://github.com/lauraiglesiasgr/gamification-math-apps-analysis
+    right:
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/laura-iglesias-g
+      - icon: github
+        text: GitHub
+        href: https://github.com/lauraiglesiasgr
+      - icon: envelope
+        text: Email
+        href: mailto:lauraiglesiasgarcia23@outlook.es
+
+  page-footer:
+    left: "Laura Iglesias García · Data Analytics & Business Intelligence"
+    right:
+      - text: Contact
+        href: mailto:lauraiglesiasgarcia23@outlook.es
