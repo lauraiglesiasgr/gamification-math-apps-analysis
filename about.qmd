@@ -80,6 +80,9 @@ trends across Spain and Europe for a report later published by
 PKF Attest. The work covered source data through to short and
 long report formats for clients.
 
+[Official publication (English)](https://www.pkf-attest.es/tecnologia/en/novedades-itc/informe-clima-2025-datos-power-bi/) ·
+[Read the report (PDF, Spanish)](https://www.pkf-attest.es/tecnologia/wp-content/uploads/sites/2/2025/09/Informe-Clima-2025-min.pdf)
+
 ### Mathematical Flexibility in Primary Education
 
 **Primary Education bachelor's thesis · Mixed methods · JASP**
