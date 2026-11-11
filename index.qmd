@@ -16,7 +16,7 @@ I work mainly with **Power BI and SQL**, with **Python and R**
 for analysis. I am seeking a junior Data Analyst or BI Analyst
 role in an international, English-speaking team.
 
-** Available immediately · Spanish citizen (EU)**
+**Available immediately · Spanish citizen (EU)**
 
 [About me](about.qmd) ·
 [LinkedIn](https://www.linkedin.com/in/laura-iglesias-g) ·
@@ -85,7 +85,8 @@ class of 22.
 **Demonstrates:** research design, structured data collection,
 statistical analysis and critical evaluation of measurement.
 
-Portfolio case study under review.
+[Explore the case study](mathematical-flexibility/index.qmd) ·
+[Inspect the results](mathematical-flexibility/evidence.qmd)
 
 ## Technical focus
 
