@@ -1,0 +1,7 @@
+format:
+  html:
+    css: assets/styles.css
+    toc: true
+    toc-depth: 2
+execute:
+  enabled: false

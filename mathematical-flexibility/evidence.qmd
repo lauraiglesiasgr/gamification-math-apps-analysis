@@ -1,0 +1,82 @@
+---
+title: "Evidence & data availability"
+subtitle: "Source-reported findings, aggregate figure generation, and verification boundaries"
+---
+
+::: {.project-nav}
+[Case study](index.qmd) · [Methods](methods.qmd) · [Results & evidence](evidence.qmd) · [Español](es.qmd) · [All projects](../projects.qmd)
+:::
+
+
+## Evidence and verification
+
+This case study presents aggregate results documented in the 2026 thesis. Questionnaire summaries were checked against its paired-score table during preparation of the portfolio. The original JASP project is unavailable: inferential results are attributed to the thesis and are not presented as an independently reproduced analysis.
+
+The portfolio includes session-level strategy-origin counts as reported. Criterion-level ratings and assessment rubrics are not distributed because the criterion lists in the methods summary and appendix differ.
+
+## Provenance
+
+All study figures on this website draw on the privately supplied 2026 thesis. Page numbers below refer to the printed document, not the PDF viewer index. The PDF itself is not redistributed.
+
+| Item | Source | Portfolio treatment |
+|---|---|---|
+| Class size, sample and selection | Sections 3.2.1–3.2.2, pp. 17–18 | Summarised; no participant codes |
+| Session sequence | Table 3.6, pp. 22–23 | Redrawn as a study diagram |
+| Whole-sample questionnaire statistics | Table 4.2, pp. 29–30 | Transcribed; checked against Table 4.3 during private audit |
+| Strategy-origin counts | Table 4.1, p. 28 | Transcribed and redrawn; missing/not-observable category retained |
+| Qualitative interpretation | Sections 4.1 and 5.3 | Generalised; no quotes, diagnoses or individual trajectories |
+| Limitations | Sections 3.7 and 6.1 | Summarised and supplemented by clearly identified portfolio audit observations |
+
+## Strategy-origin counts
+
+| Session | Spontaneous | Peer-prompted | Teacher-prompted | Not observable | Total |
+|---|---:|---:|---:|---:|---:|
+| FracciChef (S2) | 56 | 22 | 9 | 3 | 90 |
+| Dominó Fraccionario (S3) | 68 | 16 | 4 | 2 | 90 |
+| FraccUNO (S4) | 64 | 14 | 6 | 6 | 90 |
+| Total | 188 | 52 | 19 | 11 | 270 |
+
+Counts are repeated criterion ratings, six per participant per session. Categories are mutually exclusive as tabulated. Percentages use all ratings, including not-observable entries in the denominator. No participant-level breakdown is included.
+
+## Questionnaire summaries
+
+| Measure | Baseline | Post-assessment |
+|---|---:|---:|
+| N, paired participants | 15 | 15 |
+| Median | 14 | 17 |
+| Mean | 14.27 | 16.93 |
+| Sample standard deviation | 4.27 | 2.49 |
+| Minimum–maximum | 8–20 | 13–20 |
+
+Source: thesis Table 4.2. Score range: 0–20. Descriptives were checked against Table 4.3 during the private portfolio audit. No individual records are distributed. The median of the paired changes is not inferred by subtracting the two marginal medians.
+
+## Statistical reporting
+
+The source reports W = 0, p = 0.001 (two-sided), z = 3.18 and r = 0.58. It explicitly defines r = z / sqrt(N), with N = 30. That arithmetic gives about 0.581.
+
+Some paired-test implementations use the number of pairs instead. The [rstatix documentation](https://search.r-project.org/CRAN/refmans/rstatix/html/wilcox_effsize.html) specifies that convention. Using the same reported z with 15 pairs would give approximately 0.821; excluding the two zero-difference pairs from the denominator would produce another value. These are denominator illustrations, not replacement effect estimates.
+
+Accordingly, the portfolio does not label r = 0.58 as an independently replicated result or promote it as a headline effectiveness claim. Because the original JASP project is unavailable, its calculation settings, tie handling and any continuity correction could not be verified. A normal approximation and a conditional exact calculation need not yield the same p-value.
+
+The private audit reconstructed paired scores from Table 4.3 to check descriptive summaries. That is a new verification activity performed for this adaptation, not analysis code recovered from the original research. No paired records are included in the portfolio files.
+
+## What can be regenerated?
+
+**Included:** a Python standard-library script that reads transcribed aggregate CSV files, checks totals and creates three SVG figures. This is figure-generation reproducibility.
+
+**Not included:** the original participant dataset, JASP project, item-level questionnaires, criterion-level ratings, coding files or field notes. The original statistical and qualitative analyses cannot be fully replicated from this repository.
+
+The aggregate inputs are real thesis summaries, not synthetic pupil data. No synthetic dataset is used.
+
+## Data shared in this portfolio
+
+Only whole-sample summaries, newly drawn figures and game-rule illustrations are included. The source PDF, participant records, school identity, diagnostic information, pupil quotations, photographs and signed documentation are not distributed.
+
+## Documentation
+
+- Main source: Iglesias García, L. (2026). *Estudio de la flexibilidad matemática en Educación Primaria a través de juegos de resolución múltiple*. Universidad Rey Juan Carlos.
+- Original analysis tool reported by the thesis: JASP 0.18.
+- Portfolio publishing: Quarto; new aggregate SVG generation: Python.
+- [Aggregate score summaries](data/score-summary.csv), [strategy-origin counts](data/strategy-origins.csv) and [figure-generation script](scripts/make_figures.py).
+
+[Return to the case study](index.qmd)

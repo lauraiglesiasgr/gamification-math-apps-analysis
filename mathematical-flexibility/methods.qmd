@@ -1,0 +1,71 @@
+---
+title: "Study methods"
+subtitle: "What was measured, how evidence was collected, and what the design can support"
+---
+
+::: {.project-nav}
+[Case study](index.qmd) · [Methods](methods.qmd) · [Results & evidence](evidence.qmd) · [Español](es.qmd) · [All projects](../projects.qmd)
+:::
+
+
+## Design and sampling
+
+The thesis describes an exploratory, descriptive mixed-methods study with qualitative emphasis and a single-group pre-post comparison. A class of 22 pupils completed the baseline questionnaire. Baseline score strata contained 7, 9 and 6 pupils; five were selected by lottery within each stratum for follow-up (N = 15).
+
+The strata were formed from the observed distribution, with tied scores kept together. They are approximate competence groups rather than three equally sized thirds or external diagnostic cut-offs. Equal allocation to these groups does not make the follow-up sample proportional to the class. Neither stratification nor lottery selection is random assignment to an intervention.
+
+## Procedure
+
+| Session | Activity | Evidence |
+|---|---|---|
+| S1 | Individual baseline questionnaire | Written scores; open responses; sampling frame |
+| S2 | FracciChef | Game-specific rubric and field notes |
+| S3 | Dominó Fraccionario | Game-specific rubric and field notes |
+| S4 | FraccUNO | Game-specific rubric and field notes |
+| S5 | 25 minutes of rotating free play, then 25 minutes of post-assessment | Written scores and open responses |
+
+The baseline questionnaire was allocated 45 minutes. Game sessions S2–S4 comprised an introduction/demonstration, play and a discussion. Pupils outside the detailed follow-up sample could use the same game materials without individual rubric tracking. The different assessment time allocations are a comparability limitation.
+
+## Instrument map
+
+| Instrument | Unit / scale | Scope |
+|---|---|---|
+| Baseline questionnaire | Seven content items; total 0–20 | Fraction meaning, representations, comparison, ordering, equivalence, operations and contextual problems |
+| Post-questionnaire | Seven parallel content items; total 0–20 | Same broad domains, different fractions and contexts |
+| Three observation rubrics | Six criteria per game; levels 1–4; total 6–24 | Game-specific reasoning and performance |
+| Strategy-origin coding | Spontaneous / peer-prompted / teacher-prompted | Context in which a strategy appeared |
+| Field notes and open questions | Qualitative records | Reasoning, representations and responses to difficulty |
+
+The original framework calls the questionnaire evidence “potential flexibility” and observed performance “practical flexibility”. The written items also assess fraction knowledge and explanation, so the portfolio does not treat the total score as a fully validated, pure measure of flexibility. Xu et al.'s original measurement work concerns equation solving; transferring that framework to primary-school fractions requires validation.
+
+### Scope of the observation data
+
+The methods summary and Appendix 5 list partly different observation criteria. This portfolio therefore presents only session-level strategy-origin counts as reported in Table 4.1. It does not reconstruct criterion-level records or offer a downloadable assessment rubric. The three games used task-specific instruments, so their totals are not treated as a shared scale of progress.
+
+## Quantitative analysis
+
+The thesis reports medians and ranges alongside auxiliary means and standard deviations. The pre-post contrast is the Wilcoxon signed-rank test, two-sided, with alpha = 0.05 and zero differences excluded. Group-level comparisons are descriptive only.
+
+The test concerns paired differences, not the equality of means. The small sample, bounded score scale, tied differences and classroom context constrain interpretation. Neither a small p-value nor an effect-size label establishes educational effectiveness.
+
+## Qualitative analysis and integration
+
+The source describes a thematic process informed by Braun and Clarke, with broad flexibility dimensions and strategy-origin categories set in advance. It is best described here as a combination of predefined analytical axes and inductive interpretation, rather than entirely inductive coding.
+
+Written questionnaires, rubric ratings and field notes were interpreted together. Agreement can strengthen an interpretation, while disagreement may point to task demands, measurement limitations or contextual differences. Divergence alone does not identify which instrument is correct.
+
+The thesis reports that a placement tutor reviewed observations concerning five participants across the three game sessions. This is a qualitative checking procedure, not a formally quantified inter-rater reliability study.
+
+## Reporting scope
+
+The thesis reports research ethics approval. This portfolio presents whole-sample summaries and newly drawn illustrations. It excludes school identity, participant codes, diagnostic cross-tabulations, individual quotations, photographs, completed questionnaires and the original ethics certificate.
+
+## Selected references
+
+These works inform the thesis; listing them does not imply that they validate every interpretation in this adaptation.
+
+- Xu, L. et al. (2017). Measures of potential flexibility and practical flexibility in equation solving. *Frontiers in Psychology*, 8, 1368. [Article](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.01368/full).
+- Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. *Qualitative Research in Psychology*, 3(2), 77–101. [DOI](https://doi.org/10.1191/1478088706qp063oa). Bibliographic details transcribed from the thesis; full text was not retrieved during the portfolio audit.
+- SciPy documentation. [Wilcoxon signed-rank test](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html). Consulted for the portfolio audit, not claimed as the original analysis software.
+
+[Return to the case study](index.qmd)

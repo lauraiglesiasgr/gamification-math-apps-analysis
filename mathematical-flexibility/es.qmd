@@ -1,0 +1,45 @@
+---
+title: "Flexibilidad matemática en Educación Primaria"
+subtitle: "Resumen del caso de estudio de investigación aplicada"
+lang: es
+---
+
+::: {.project-nav}
+[Case study](index.qmd) · [Methods](methods.qmd) · [Results & evidence](evidence.qmd) · [Español](es.qmd) · [All projects](../projects.qmd)
+:::
+
+
+
+## El problema
+
+¿Cómo selecciona y adapta el alumnado sus estrategias con fracciones? ¿Qué razonamientos se hacen visibles durante una actividad y cuáles quedan recogidos en una evaluación escrita?
+
+Este TFG de Educación Primaria de la Universidad Rey Juan Carlos combina diseño de investigación, instrumentos de evaluación, análisis cuantitativo y observación cualitativa. Su aportación profesional está en cómo se obtiene e interpreta la evidencia.
+
+## Diseño
+
+Una clase de 22 escolares completó el cuestionario inicial. Se formaron tres estratos de competencia y se sortearon cinco participantes por estrato para el seguimiento detallado: 15 en total.
+
+La secuencia comprendió cinco sesiones semanales: cuestionario inicial, tres sesiones con FracciChef, Dominó Fraccionario y FraccUNO, y una sesión final con juego libre y cuestionario posterior. No hubo grupo de control ni seguimiento diferido.
+
+## Resultados y alcance
+
+En los 15 participantes, la media del cuestionario pasó de 14,27 a 16,93 sobre 20; la mediana pasó de 14 a 17. Trece puntuaciones aumentaron y dos se mantuvieron en el máximo. El TFG reporta una prueba de Wilcoxon con W = 0 y p bilateral = 0,001. El archivo original de JASP no está disponible; estos valores se atribuyen al TFG y no se presentan como un análisis reproducido de forma independiente.
+
+De 270 valoraciones de criterios durante el juego, 188 se codificaron como espontáneas. Son medidas repetidas de 15 participantes, no 270 observaciones independientes. Las rúbricas difieren entre juegos y sus totales no constituyen una escala común de progreso.
+
+Las observaciones cualitativas sugieren que el formato de evaluación puede influir en el razonamiento que se logra registrar. Esto plantea una pregunta de investigación; no demuestra por sí solo un sesgo general de las pruebas escritas.
+
+## Limitaciones
+
+El diseño no permite atribuir la mejora exclusivamente a los juegos. La muestra es pequeña, pertenece a una sola clase y se selecciona según puntuaciones iniciales. Hay posibles efectos techo y regresión a la media, distinto tiempo de evaluación pre y post, observación de la propia investigadora e instrumentos sin validación psicométrica formal. El resumen metodológico y el anexo recogen listas de criterios parcialmente diferentes; por ello, no se publican rúbricas ni registros por criterio.
+
+## Competencias demostradas
+
+Diseño de investigación; elaboración de instrumentos; muestreo estratificado; estadística descriptiva; contraste no paramétrico; codificación cualitativa; triangulación; análisis crítico; comunicación de resultados.
+
+## Documentación y privacidad
+
+La versión principal en inglés contiene [el caso completo](index.qmd), [la metodología](methods.qmd) y [las notas de evidencia y disponibilidad de datos](evidence.qmd). Este resumen español no es una traducción íntegra de todas las páginas.
+
+El repositorio incluye figuras generadas a partir de tablas agregadas del TFG. No incluye el PDF original, registros individuales, diagnósticos, citas del alumnado, fotografías ni documentación firmada. El código de figuras se ha creado después para el portfolio y no se presenta como código del análisis original.
