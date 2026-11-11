@@ -93,8 +93,10 @@ The study followed 15 participants selected through stratified
 sampling within a class of 22.
 
 The case study examines analytical choices, aggregate findings and
-the limits of different assessment formats. Its portfolio adaptation
-is currently under review.
+the limits of different assessment formats. 
+
+[Explore the case study](mathematical-flexibility/index.qmd) ·
+[Inspect the results](mathematical-flexibility/evidence.qmd)
 
 ## Technical skills
 
