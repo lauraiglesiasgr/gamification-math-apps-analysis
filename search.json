@@ -49,6 +49,111 @@
     "text": "Contact\nInterested in discussing a junior opportunity in Data Analytics, Business Intelligence or applied research?\nEmail me · Connect on LinkedIn · Explore my GitHub"
   },
   {
+    "objectID": "mathematical-flexibility/es.html",
+    "href": "mathematical-flexibility/es.html",
+    "title": "Flexibilidad matemática en Educación Primaria",
+    "section": "",
+    "text": "Case study · Methods · Results & evidence · Español · All projects"
+  },
+  {
+    "objectID": "mathematical-flexibility/es.html#el-problema",
+    "href": "mathematical-flexibility/es.html#el-problema",
+    "title": "Flexibilidad matemática en Educación Primaria",
+    "section": "El problema",
+    "text": "El problema\n¿Cómo selecciona y adapta el alumnado sus estrategias con fracciones? ¿Qué razonamientos se hacen visibles durante una actividad y cuáles quedan recogidos en una evaluación escrita?\nEste TFG de Educación Primaria de la Universidad Rey Juan Carlos combina diseño de investigación, instrumentos de evaluación, análisis cuantitativo y observación cualitativa. Su aportación profesional está en cómo se obtiene e interpreta la evidencia."
+  },
+  {
+    "objectID": "mathematical-flexibility/es.html#diseño",
+    "href": "mathematical-flexibility/es.html#diseño",
+    "title": "Flexibilidad matemática en Educación Primaria",
+    "section": "Diseño",
+    "text": "Diseño\nUna clase de 22 escolares completó el cuestionario inicial. Se formaron tres estratos de competencia y se sortearon cinco participantes por estrato para el seguimiento detallado: 15 en total.\nLa secuencia comprendió cinco sesiones semanales: cuestionario inicial, tres sesiones con FracciChef, Dominó Fraccionario y FraccUNO, y una sesión final con juego libre y cuestionario posterior. No hubo grupo de control ni seguimiento diferido."
+  },
+  {
+    "objectID": "mathematical-flexibility/es.html#resultados-y-alcance",
+    "href": "mathematical-flexibility/es.html#resultados-y-alcance",
+    "title": "Flexibilidad matemática en Educación Primaria",
+    "section": "Resultados y alcance",
+    "text": "Resultados y alcance\nEn los 15 participantes, la media del cuestionario pasó de 14,27 a 16,93 sobre 20; la mediana pasó de 14 a 17. Trece puntuaciones aumentaron y dos se mantuvieron en el máximo. El TFG reporta una prueba de Wilcoxon con W = 0 y p bilateral = 0,001. El archivo original de JASP no está disponible; estos valores se atribuyen al TFG y no se presentan como un análisis reproducido de forma independiente.\nDe 270 valoraciones de criterios durante el juego, 188 se codificaron como espontáneas. Son medidas repetidas de 15 participantes, no 270 observaciones independientes. Las rúbricas difieren entre juegos y sus totales no constituyen una escala común de progreso.\nLas observaciones cualitativas sugieren que el formato de evaluación puede influir en el razonamiento que se logra registrar. Esto plantea una pregunta de investigación; no demuestra por sí solo un sesgo general de las pruebas escritas."
+  },
+  {
+    "objectID": "mathematical-flexibility/es.html#limitaciones",
+    "href": "mathematical-flexibility/es.html#limitaciones",
+    "title": "Flexibilidad matemática en Educación Primaria",
+    "section": "Limitaciones",
+    "text": "Limitaciones\nEl diseño no permite atribuir la mejora exclusivamente a los juegos. La muestra es pequeña, pertenece a una sola clase y se selecciona según puntuaciones iniciales. Hay posibles efectos techo y regresión a la media, distinto tiempo de evaluación pre y post, observación de la propia investigadora e instrumentos sin validación psicométrica formal. El resumen metodológico y el anexo recogen listas de criterios parcialmente diferentes; por ello, no se publican rúbricas ni registros por criterio."
+  },
+  {
+    "objectID": "mathematical-flexibility/es.html#competencias-demostradas",
+    "href": "mathematical-flexibility/es.html#competencias-demostradas",
+    "title": "Flexibilidad matemática en Educación Primaria",
+    "section": "Competencias demostradas",
+    "text": "Competencias demostradas\nDiseño de investigación; elaboración de instrumentos; muestreo estratificado; estadística descriptiva; contraste no paramétrico; codificación cualitativa; triangulación; análisis crítico; comunicación de resultados."
+  },
+  {
+    "objectID": "mathematical-flexibility/es.html#documentación-y-privacidad",
+    "href": "mathematical-flexibility/es.html#documentación-y-privacidad",
+    "title": "Flexibilidad matemática en Educación Primaria",
+    "section": "Documentación y privacidad",
+    "text": "Documentación y privacidad\nLa versión principal en inglés contiene el caso completo, la metodología y las notas de evidencia y disponibilidad de datos. Este resumen español no es una traducción íntegra de todas las páginas.\nEl repositorio incluye figuras generadas a partir de tablas agregadas del TFG. No incluye el PDF original, registros individuales, diagnósticos, citas del alumnado, fotografías ni documentación firmada. El código de figuras se ha creado después para el portfolio y no se presenta como código del análisis original."
+  },
+  {
+    "objectID": "mathematical-flexibility/methods.html",
+    "href": "mathematical-flexibility/methods.html",
+    "title": "Study methods",
+    "section": "",
+    "text": "Case study · Methods · Results & evidence · Español · All projects"
+  },
+  {
+    "objectID": "mathematical-flexibility/methods.html#design-and-sampling",
+    "href": "mathematical-flexibility/methods.html#design-and-sampling",
+    "title": "Study methods",
+    "section": "Design and sampling",
+    "text": "Design and sampling\nThe thesis describes an exploratory, descriptive mixed-methods study with qualitative emphasis and a single-group pre-post comparison. A class of 22 pupils completed the baseline questionnaire. Baseline score strata contained 7, 9 and 6 pupils; five were selected by lottery within each stratum for follow-up (N = 15).\nThe strata were formed from the observed distribution, with tied scores kept together. They are approximate competence groups rather than three equally sized thirds or external diagnostic cut-offs. Equal allocation to these groups does not make the follow-up sample proportional to the class. Neither stratification nor lottery selection is random assignment to an intervention."
+  },
+  {
+    "objectID": "mathematical-flexibility/methods.html#procedure",
+    "href": "mathematical-flexibility/methods.html#procedure",
+    "title": "Study methods",
+    "section": "Procedure",
+    "text": "Procedure\n\n\n\n\n\n\n\n\nSession\nActivity\nEvidence\n\n\n\n\nS1\nIndividual baseline questionnaire\nWritten scores; open responses; sampling frame\n\n\nS2\nFracciChef\nGame-specific rubric and field notes\n\n\nS3\nDominó Fraccionario\nGame-specific rubric and field notes\n\n\nS4\nFraccUNO\nGame-specific rubric and field notes\n\n\nS5\n25 minutes of rotating free play, then 25 minutes of post-assessment\nWritten scores and open responses\n\n\n\nThe baseline questionnaire was allocated 45 minutes. Game sessions S2–S4 comprised an introduction/demonstration, play and a discussion. Pupils outside the detailed follow-up sample could use the same game materials without individual rubric tracking. The different assessment time allocations are a comparability limitation."
+  },
+  {
+    "objectID": "mathematical-flexibility/methods.html#instrument-map",
+    "href": "mathematical-flexibility/methods.html#instrument-map",
+    "title": "Study methods",
+    "section": "Instrument map",
+    "text": "Instrument map\n\n\n\n\n\n\n\n\nInstrument\nUnit / scale\nScope\n\n\n\n\nBaseline questionnaire\nSeven content items; total 0–20\nFraction meaning, representations, comparison, ordering, equivalence, operations and contextual problems\n\n\nPost-questionnaire\nSeven parallel content items; total 0–20\nSame broad domains, different fractions and contexts\n\n\nThree observation rubrics\nSix criteria per game; levels 1–4; total 6–24\nGame-specific reasoning and performance\n\n\nStrategy-origin coding\nSpontaneous / peer-prompted / teacher-prompted\nContext in which a strategy appeared\n\n\nField notes and open questions\nQualitative records\nReasoning, representations and responses to difficulty\n\n\n\nThe original framework calls the questionnaire evidence “potential flexibility” and observed performance “practical flexibility”. The written items also assess fraction knowledge and explanation, so the portfolio does not treat the total score as a fully validated, pure measure of flexibility. Xu et al.’s original measurement work concerns equation solving; transferring that framework to primary-school fractions requires validation.\n\nScope of the observation data\nThe methods summary and Appendix 5 list partly different observation criteria. This portfolio therefore presents only session-level strategy-origin counts as reported in Table 4.1. It does not reconstruct criterion-level records or offer a downloadable assessment rubric. The three games used task-specific instruments, so their totals are not treated as a shared scale of progress."
+  },
+  {
+    "objectID": "mathematical-flexibility/methods.html#quantitative-analysis",
+    "href": "mathematical-flexibility/methods.html#quantitative-analysis",
+    "title": "Study methods",
+    "section": "Quantitative analysis",
+    "text": "Quantitative analysis\nThe thesis reports medians and ranges alongside auxiliary means and standard deviations. The pre-post contrast is the Wilcoxon signed-rank test, two-sided, with alpha = 0.05 and zero differences excluded. Group-level comparisons are descriptive only.\nThe test concerns paired differences, not the equality of means. The small sample, bounded score scale, tied differences and classroom context constrain interpretation. Neither a small p-value nor an effect-size label establishes educational effectiveness."
+  },
+  {
+    "objectID": "mathematical-flexibility/methods.html#qualitative-analysis-and-integration",
+    "href": "mathematical-flexibility/methods.html#qualitative-analysis-and-integration",
+    "title": "Study methods",
+    "section": "Qualitative analysis and integration",
+    "text": "Qualitative analysis and integration\nThe source describes a thematic process informed by Braun and Clarke, with broad flexibility dimensions and strategy-origin categories set in advance. It is best described here as a combination of predefined analytical axes and inductive interpretation, rather than entirely inductive coding.\nWritten questionnaires, rubric ratings and field notes were interpreted together. Agreement can strengthen an interpretation, while disagreement may point to task demands, measurement limitations or contextual differences. Divergence alone does not identify which instrument is correct.\nThe thesis reports that a placement tutor reviewed observations concerning five participants across the three game sessions. This is a qualitative checking procedure, not a formally quantified inter-rater reliability study."
+  },
+  {
+    "objectID": "mathematical-flexibility/methods.html#reporting-scope",
+    "href": "mathematical-flexibility/methods.html#reporting-scope",
+    "title": "Study methods",
+    "section": "Reporting scope",
+    "text": "Reporting scope\nThe thesis reports research ethics approval. This portfolio presents whole-sample summaries and newly drawn illustrations. It excludes school identity, participant codes, diagnostic cross-tabulations, individual quotations, photographs, completed questionnaires and the original ethics certificate."
+  },
+  {
+    "objectID": "mathematical-flexibility/methods.html#selected-references",
+    "href": "mathematical-flexibility/methods.html#selected-references",
+    "title": "Study methods",
+    "section": "Selected references",
+    "text": "Selected references\nThese works inform the thesis; listing them does not imply that they validate every interpretation in this adaptation.\n\nXu, L. et al. (2017). Measures of potential flexibility and practical flexibility in equation solving. Frontiers in Psychology, 8, 1368. Article.\nBraun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3(2), 77–101. DOI. Bibliographic details transcribed from the thesis; full text was not retrieved during the portfolio audit.\nSciPy documentation. Wilcoxon signed-rank test. Consulted for the portfolio audit, not claimed as the original analysis software.\n\nReturn to the case study"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Laura Iglesias García",
@@ -180,6 +285,118 @@
     "title": "Selected projects",
     "section": "Discuss my work",
     "text": "Discuss my work\nFor junior opportunities in Data Analytics, Business Intelligence or applied research:\nAbout my experience · Email · LinkedIn"
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html",
+    "href": "mathematical-flexibility/evidence.html",
+    "title": "Evidence & data availability",
+    "section": "",
+    "text": "Case study · Methods · Results & evidence · Español · All projects"
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#evidence-and-verification",
+    "href": "mathematical-flexibility/evidence.html#evidence-and-verification",
+    "title": "Evidence & data availability",
+    "section": "Evidence and verification",
+    "text": "Evidence and verification\nThis case study presents aggregate results documented in the 2026 thesis. Questionnaire summaries were checked against its paired-score table during preparation of the portfolio. The original JASP project is unavailable: inferential results are attributed to the thesis and are not presented as an independently reproduced analysis.\nThe portfolio includes session-level strategy-origin counts as reported. Criterion-level ratings and assessment rubrics are not distributed because the criterion lists in the methods summary and appendix differ."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#provenance",
+    "href": "mathematical-flexibility/evidence.html#provenance",
+    "title": "Evidence & data availability",
+    "section": "Provenance",
+    "text": "Provenance\nAll study figures on this website draw on the privately supplied 2026 thesis. Page numbers below refer to the printed document, not the PDF viewer index. The PDF itself is not redistributed.\n\n\n\n\n\n\n\n\nItem\nSource\nPortfolio treatment\n\n\n\n\nClass size, sample and selection\nSections 3.2.1–3.2.2, pp. 17–18\nSummarised; no participant codes\n\n\nSession sequence\nTable 3.6, pp. 22–23\nRedrawn as a study diagram\n\n\nWhole-sample questionnaire statistics\nTable 4.2, pp. 29–30\nTranscribed; checked against Table 4.3 during private audit\n\n\nStrategy-origin counts\nTable 4.1, p. 28\nTranscribed and redrawn; missing/not-observable category retained\n\n\nQualitative interpretation\nSections 4.1 and 5.3\nGeneralised; no quotes, diagnoses or individual trajectories\n\n\nLimitations\nSections 3.7 and 6.1\nSummarised and supplemented by clearly identified portfolio audit observations"
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#strategy-origin-counts",
+    "href": "mathematical-flexibility/evidence.html#strategy-origin-counts",
+    "title": "Evidence & data availability",
+    "section": "Strategy-origin counts",
+    "text": "Strategy-origin counts\n\n\n\n\n\n\n\n\n\n\n\nSession\nSpontaneous\nPeer-prompted\nTeacher-prompted\nNot observable\nTotal\n\n\n\n\nFracciChef (S2)\n56\n22\n9\n3\n90\n\n\nDominó Fraccionario (S3)\n68\n16\n4\n2\n90\n\n\nFraccUNO (S4)\n64\n14\n6\n6\n90\n\n\nTotal\n188\n52\n19\n11\n270\n\n\n\nCounts are repeated criterion ratings, six per participant per session. Categories are mutually exclusive as tabulated. Percentages use all ratings, including not-observable entries in the denominator. No participant-level breakdown is included."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#questionnaire-summaries",
+    "href": "mathematical-flexibility/evidence.html#questionnaire-summaries",
+    "title": "Evidence & data availability",
+    "section": "Questionnaire summaries",
+    "text": "Questionnaire summaries\n\n\n\nMeasure\nBaseline\nPost-assessment\n\n\n\n\nN, paired participants\n15\n15\n\n\nMedian\n14\n17\n\n\nMean\n14.27\n16.93\n\n\nSample standard deviation\n4.27\n2.49\n\n\nMinimum–maximum\n8–20\n13–20\n\n\n\nSource: thesis Table 4.2. Score range: 0–20. Descriptives were checked against Table 4.3 during the private portfolio audit. No individual records are distributed. The median of the paired changes is not inferred by subtracting the two marginal medians."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#statistical-reporting",
+    "href": "mathematical-flexibility/evidence.html#statistical-reporting",
+    "title": "Evidence & data availability",
+    "section": "Statistical reporting",
+    "text": "Statistical reporting\nThe source reports W = 0, p = 0.001 (two-sided), z = 3.18 and r = 0.58. It explicitly defines r = z / sqrt(N), with N = 30. That arithmetic gives about 0.581.\nSome paired-test implementations use the number of pairs instead. The rstatix documentation specifies that convention. Using the same reported z with 15 pairs would give approximately 0.821; excluding the two zero-difference pairs from the denominator would produce another value. These are denominator illustrations, not replacement effect estimates.\nAccordingly, the portfolio does not label r = 0.58 as an independently replicated result or promote it as a headline effectiveness claim. Because the original JASP project is unavailable, its calculation settings, tie handling and any continuity correction could not be verified. A normal approximation and a conditional exact calculation need not yield the same p-value.\nThe private audit reconstructed paired scores from Table 4.3 to check descriptive summaries. That is a new verification activity performed for this adaptation, not analysis code recovered from the original research. No paired records are included in the portfolio files."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#what-can-be-regenerated",
+    "href": "mathematical-flexibility/evidence.html#what-can-be-regenerated",
+    "title": "Evidence & data availability",
+    "section": "What can be regenerated?",
+    "text": "What can be regenerated?\nIncluded: a Python standard-library script that reads transcribed aggregate CSV files, checks totals and creates three SVG figures. This is figure-generation reproducibility.\nNot included: the original participant dataset, JASP project, item-level questionnaires, criterion-level ratings, coding files or field notes. The original statistical and qualitative analyses cannot be fully replicated from this repository.\nThe aggregate inputs are real thesis summaries, not synthetic pupil data. No synthetic dataset is used."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#data-shared-in-this-portfolio",
+    "href": "mathematical-flexibility/evidence.html#data-shared-in-this-portfolio",
+    "title": "Evidence & data availability",
+    "section": "Data shared in this portfolio",
+    "text": "Data shared in this portfolio\nOnly whole-sample summaries, newly drawn figures and game-rule illustrations are included. The source PDF, participant records, school identity, diagnostic information, pupil quotations, photographs and signed documentation are not distributed."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#documentation",
+    "href": "mathematical-flexibility/evidence.html#documentation",
+    "title": "Evidence & data availability",
+    "section": "Documentation",
+    "text": "Documentation\n\nMain source: Iglesias García, L. (2026). Estudio de la flexibilidad matemática en Educación Primaria a través de juegos de resolución múltiple. Universidad Rey Juan Carlos.\nOriginal analysis tool reported by the thesis: JASP 0.18.\nPortfolio publishing: Quarto; new aggregate SVG generation: Python.\nAggregate score summaries, strategy-origin counts and figure-generation script.\n\nReturn to the case study"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html",
+    "href": "mathematical-flexibility/index.html",
+    "title": "Making mathematical thinking visible",
+    "section": "",
+    "text": "Case study · Methods · Results & evidence · Español · All projects"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#findings",
+    "href": "mathematical-flexibility/index.html#findings",
+    "title": "Making mathematical thinking visible",
+    "section": "Findings at a glance",
+    "text": "Findings at a glance\n\n\n01\n\nHigher written scores\nMedian questionnaire scores rose from 14 to 17 / 20 in the follow-up sample. Thirteen scores increased and two stayed at the maximum.\n\n\n\n02\n\nVisible strategy choices\n188 of 270 criterion ratings during the three games were coded as spontaneous. Other ratings recorded peer or teacher prompting, or were not observable.\n\n\n\n03\n\nDifferent evidence across formats\nQualitative observations raised questions about reasoning visible during play and the evidence captured by written tasks.\n\n\n\n\nWritten assessment: before and after\n\n   \n\nWritten questionnaire scores. Medians are the primary summary; means are complementary. Source: thesis Table 4.2.\n\n\nThe mean change was +2.67 points out of 20. The thesis reports a paired Wilcoxon test with W = 0, two-sided p = 0.001. Statistical detail and source tables →\n\n\nStrategy origins during play\n\n   \n\nStrategy-origin ratings. Each session contains 90 criterion ratings from the same 15 pupils. Source: thesis Table 4.1.\n\n\nSpontaneous strategies were the most frequent category in every session. Each game used a different rubric and appeared in a fixed order, so these bars describe observations rather than rank game effectiveness. Accessible counts and provenance →"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#design",
+    "href": "mathematical-flexibility/index.html#design",
+    "title": "Making mathematical thinking visible",
+    "section": "Research design",
+    "text": "Research design\nQuestion: What strategies become visible in multiple-solution fraction games, and how do written scores differ before and after the sequence?\nI combined a pre-post comparison with observation and qualitative records. A class of 22 pupils completed the baseline questionnaire. Five participants were selected by lottery within each of three baseline competence strata, producing a 15-participant follow-up sample.\n\n\n\nFive sessions combined written assessment with classroom observation.\n\n\n\n\n\n\n\n\n\nEvidence source\nWhat it contributed\n\n\n\n\nWritten questionnaires, scored out of 20\nFraction knowledge, representations and explanations before and after the sequence\n\n\nSix-criterion rubric for each game\nStructured evidence of reasoning within each activity\n\n\nStrategy-origin codes\nWhether a strategy appeared spontaneously or following prompting\n\n\nField notes and open responses\nContext for interpreting numerical patterns and differences between formats\n\n\n\nThe approach was mixed-methods, with qualitative emphasis. Written scores, observation and field notes were interpreted together. Sampling, instruments and analysis decisions →"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#intervention",
+    "href": "mathematical-flexibility/index.html#intervention",
+    "title": "Making mathematical thinking visible",
+    "section": "Inside the intervention",
+    "text": "Inside the intervention\nI designed three games to create more than one valid route to a solution. The aim was to make procedure choice, representation and adaptation observable.\n\n01 / Procedural emphasis\n\nFracciChef\n\n\n\nIllustrative game mechanic: two quarter cards or one half card can satisfy a recipe requiring two quarters.\n\n\nPlayers combine ingredient cards to complete a recipe. Different equivalent combinations make it possible to observe which route a player chooses and how they justify it.\n\n\n\n02 / Representational emphasis\n\nDominó Fraccionario\n\n\n\nIllustrative equivalence: a half-shaded rectangle and the symbolic fraction two quarters represent the same quantity.\n\n\nA valid connection depends on equivalent quantities across visual and symbolic forms. Matching values requires looking beyond identical notation.\n\n\n\n03 / Strategic emphasis\n\nFraccUNO\n\n\n\nIllustrative choice: a blue half card can be followed by a blue three-quarters card through colour, or a red two-quarters card through equivalent value.\n\n\nPlayers can have several legal moves. Choosing between a colour match and an equivalent value creates an opportunity to explain and adapt a strategy.\n\n\nThe diagrams above are newly drawn explanations of documented rules, not reproductions of pupil work or the original card artwork. Each game was observed in one session, so game mechanics, rubric and order cannot be separated analytically."
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#contribution",
+    "href": "mathematical-flexibility/index.html#contribution",
+    "title": "Making mathematical thinking visible",
+    "section": "My analytical contribution",
+    "text": "My analytical contribution\nMy contribution covered the research process from the question to interpretation. The decisions below show the methodological work behind the findings.\n\n\n\n\n\n\n\n\nDecision\nPurpose\nEvidence of skill\n\n\n\n\nInclude different baseline competence levels\nObserve a range of starting profiles\nSampling design\n\n\nDefine rubrics and strategy-origin codes\nStructure classroom observations\nOperationalisation and data collection\n\n\nCompare paired questionnaire scores\nExamine within-participant change\nDescriptive statistics and non-parametric testing\n\n\nRead scores alongside field notes\nInvestigate agreement and divergence between sources\nMixed-methods interpretation\n\n\nExamine ceiling effects and assessment demands\nBound the claims supported by the study\nMeasurement critique and analytical judgement\n\n\n\nTools and scope: the original thesis reports JASP 0.18 for numerical analysis. Quarto and the Python aggregate-figure script were added later for this portfolio. The script regenerates figures from transcribed summaries; it does not reproduce the full original analysis."
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#interpretation",
+    "href": "mathematical-flexibility/index.html#interpretation",
+    "title": "Making mathematical thinking visible",
+    "section": "Interpretation & next study",
+    "text": "Interpretation & next study\nThe study documents higher written scores after the sequence and a range of strategies during play. Its broader contribution is a research process that considers both performance and how evidence of performance is collected.\nThis exploratory study describes a change within one classroom. The absence of a control group, differences between assessment conditions and the short follow-up limit the conclusions. Study limitations and measurement details →\nA stronger next study would combine a comparison group, delayed follow-up, harmonised assessment conditions and independent observation. Full methodological limitations →"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#documentation",
+    "href": "mathematical-flexibility/index.html#documentation",
+    "title": "Making mathematical thinking visible",
+    "section": "Documentation & related work",
+    "text": "Documentation & related work\n\n\nMethods\nSampling, instruments, procedure and analytical choices.\nExplore the methodology →\n\n\nEvidence & data\nSource tables, statistical notes and data availability.\nInspect the evidence →\n\n\nEspañol\nResumen del estudio, resultados y alcance.\nLeer en español →\n\n\nThis case complements my work in mathematics and data analysis. Explore my project on gamification and mathematics apps →\nSource: Iglesias García, L. (2026). Estudio de la flexibilidad matemática en Educación Primaria a través de juegos de resolución múltiple. Primary Education bachelor’s thesis, Universidad Rey Juan Carlos. This adaptation presents aggregate evidence; the original PDF and participant records are not redistributed."
   },
   {
     "objectID": "gamification.html",
