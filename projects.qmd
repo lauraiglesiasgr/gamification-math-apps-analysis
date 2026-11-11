@@ -1,0 +1,107 @@
+---
+title: "Selected projects"
+description: >
+  Business Intelligence, statistical analysis and applied research
+  projects by Laura Iglesias García.
+---
+
+My projects combine professional Business Intelligence experience
+with mathematical and statistical analysis.
+
+Each case explains the question, my contribution, the methods
+used and the evidence available.
+
+## Climate Trends in Spain and Europe
+
+**Professional project · PKF Attest · Power BI · Data analysis**
+
+### Research question
+
+How have temperature and precipitation patterns evolved
+across Spain and Europe?
+
+### My contribution
+
+Carried out the end-to-end analysis, from source data
+through to visual reporting and short and long report
+formats for clients.
+
+The report was subsequently published by PKF Attest.
+
+### Skills demonstrated
+
+- Data preparation and structuring.
+- Analysis of geographical and temporal patterns.
+- Power BI visualisation.
+- Interpretation and communication of findings.
+- Delivery of an analytical project from data to reports.
+
+## Gamification & Commercial Success in Educational Math Apps
+
+**Mathematics bachelor's thesis · R · Statistical modelling**
+
+### Research question
+
+Which gamification features are associated with downloads
+of educational mathematics apps?
+
+### My contribution
+
+Analysed a stratified sample of 200 apps drawn from a cleaned
+population of 4,218 educational mathematics apps.
+
+Used multiple linear regression with HC3 robust standard
+errors, diagnostic checks and sensitivity analyses to examine
+associations between app features and downloads.
+
+### Skills demonstrated
+
+- Data cleaning and sampling.
+- Statistical modelling in R.
+- Model diagnostics and robustness assessment.
+- Interpretation of observational evidence.
+- Reproducible analytical documentation.
+
+[Read the case study](gamification.qmd) ·
+[Explore the code](https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/tree/main/R) ·
+[Read the thesis](https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/blob/main/report/TFG_Iglesias_Garcia.pdf)
+
+## Mathematical Flexibility in Primary Education
+
+**Primary Education bachelor's thesis · Mixed methods · JASP**
+
+### Research question
+
+What mathematical strategies become visible during fraction
+games, and how do written assessment scores differ before
+and after the sequence?
+
+### My contribution
+
+Designed three games, assessment instruments and a five-session
+classroom study.
+
+Combined written assessments, structured observation and
+qualitative records for a follow-up sample of 15 participants
+selected within a class of 22.
+
+### Skills demonstrated
+
+- Research and instrument design.
+- Stratified sampling and structured data collection.
+- Descriptive statistics and paired non-parametric testing.
+- Quantitative and qualitative interpretation.
+- Critical evaluation of measurement and study limitations.
+
+The portfolio case study is under review before public release.
+
+---
+
+## Discuss my work
+
+For junior opportunities in Data Analytics, Business Intelligence
+or applied research:
+
+[About my experience](about.qmd) ·
+[Email](mailto:lauraiglesiasgarcia23@outlook.es) ·
+[LinkedIn](https://www.linkedin.com/in/laura-iglesias-g)
