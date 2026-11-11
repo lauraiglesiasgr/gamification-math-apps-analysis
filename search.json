@@ -147,6 +147,41 @@
     "text": "Add the repo and the live report link to LinkedIn (Projects section).\nPin the repo on your GitHub profile.\nLink it in your CV and cover letters (great fit for data-analyst roles).\nOptionally publish a notebook version on Kaggle and deposit the thesis in the URJC institutional repository."
   },
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Selected projects",
+    "section": "",
+    "text": "My projects combine professional Business Intelligence experience with mathematical and statistical analysis.\nEach case explains the question, my contribution, the methods used and the evidence available."
+  },
+  {
+    "objectID": "projects.html#climate-trends-in-spain-and-europe",
+    "href": "projects.html#climate-trends-in-spain-and-europe",
+    "title": "Selected projects",
+    "section": "Climate Trends in Spain and Europe",
+    "text": "Climate Trends in Spain and Europe\nProfessional project · PKF Attest · Power BI · Data analysis\n\nResearch question\nHow have temperature and precipitation patterns evolved across Spain and Europe?\n\n\nMy contribution\nCarried out the end-to-end analysis, from source data through to visual reporting and short and long report formats for clients.\nThe report was subsequently published by PKF Attest.\n\n\nSkills demonstrated\n\nData preparation and structuring.\nAnalysis of geographical and temporal patterns.\nPower BI visualisation.\nInterpretation and communication of findings.\nDelivery of an analytical project from data to reports."
+  },
+  {
+    "objectID": "projects.html#gamification-commercial-success-in-educational-math-apps",
+    "href": "projects.html#gamification-commercial-success-in-educational-math-apps",
+    "title": "Selected projects",
+    "section": "Gamification & Commercial Success in Educational Math Apps",
+    "text": "Gamification & Commercial Success in Educational Math Apps\nMathematics bachelor’s thesis · R · Statistical modelling\n\nResearch question\nWhich gamification features are associated with downloads of educational mathematics apps?\n\n\nMy contribution\nAnalysed a stratified sample of 200 apps drawn from a cleaned population of 4,218 educational mathematics apps.\nUsed multiple linear regression with HC3 robust standard errors, diagnostic checks and sensitivity analyses to examine associations between app features and downloads.\n\n\nSkills demonstrated\n\nData cleaning and sampling.\nStatistical modelling in R.\nModel diagnostics and robustness assessment.\nInterpretation of observational evidence.\nReproducible analytical documentation.\n\nRead the case study · Explore the code · Read the thesis"
+  },
+  {
+    "objectID": "projects.html#mathematical-flexibility-in-primary-education",
+    "href": "projects.html#mathematical-flexibility-in-primary-education",
+    "title": "Selected projects",
+    "section": "Mathematical Flexibility in Primary Education",
+    "text": "Mathematical Flexibility in Primary Education\nPrimary Education bachelor’s thesis · Mixed methods · JASP\n\nResearch question\nWhat mathematical strategies become visible during fraction games, and how do written assessment scores differ before and after the sequence?\n\n\nMy contribution\nDesigned three games, assessment instruments and a five-session classroom study.\nCombined written assessments, structured observation and qualitative records for a follow-up sample of 15 participants selected within a class of 22.\n\n\nSkills demonstrated\n\nResearch and instrument design.\nStratified sampling and structured data collection.\nDescriptive statistics and paired non-parametric testing.\nQuantitative and qualitative interpretation.\nCritical evaluation of measurement and study limitations.\n\nThe portfolio case study is under review before public release."
+  },
+  {
+    "objectID": "projects.html#discuss-my-work",
+    "href": "projects.html#discuss-my-work",
+    "title": "Selected projects",
+    "section": "Discuss my work",
+    "text": "Discuss my work\nFor junior opportunities in Data Analytics, Business Intelligence or applied research:\nAbout my experience · Email · LinkedIn"
+  },
+  {
     "objectID": "gamification.html",
     "href": "gamification.html",
     "title": "Gamification & Commercial Success in Educational Math Apps",
