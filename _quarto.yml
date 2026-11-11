@@ -16,8 +16,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: gamification.qmd
-        text: Gamification Analysis
+      - href: projects.qmd
+        text: Projects
       - href: about.qmd
         text: About
     right:
