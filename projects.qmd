@@ -27,6 +27,8 @@ through to visual reporting and short and long report
 formats for clients.
 
 The report was subsequently published by PKF Attest.
+[Official publication (English)](https://www.pkf-attest.es/tecnologia/en/novedades-itc/informe-clima-2025-datos-power-bi/) ·
+[Read the report (PDF, Spanish)](https://www.pkf-attest.es/tecnologia/wp-content/uploads/sites/2/2025/09/Informe-Clima-2025-min.pdf)
 
 ### Skills demonstrated
 
