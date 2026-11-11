@@ -95,7 +95,9 @@ selected within a class of 22.
 - Quantitative and qualitative interpretation.
 - Critical evaluation of measurement and study limitations.
 
-The portfolio case study is under review before public release.
+[Read the case study](mathematical-flexibility/index.qmd) ·
+[Methods](mathematical-flexibility/methods.qmd) ·
+[Results & evidence](mathematical-flexibility/evidence.qmd)
 
 ---
 
