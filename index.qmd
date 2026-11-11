@@ -70,6 +70,9 @@ PKF Attest.
 **Demonstrates:** analysis of real-world data, interpretation
 of trends and communication of findings.
 
+[Official publication (English)](https://www.pkf-attest.es/tecnologia/en/novedades-itc/informe-clima-2025-datos-power-bi/) ·
+[Read the report (PDF, Spanish)](https://www.pkf-attest.es/tecnologia/wp-content/uploads/sites/2/2025/09/Informe-Clima-2025-min.pdf)
+
 ### Mathematical Flexibility in Primary Education
 
 **Primary Education bachelor's thesis · Mixed methods · JASP**
