@@ -67,32 +67,59 @@ Before modelling, two patterns are worth seeing directly.
 
 ## Key results: Model I (OLS, HC3 robust errors)
 
-![Only reward systems are a significant gamification differentiator; the freemium model (in-app purchases, advertising) is the strongest overall driver. Adjusted rating and feedback are negative and significant; levels, ranking and avatars are not. OLS, HC3 robust 95% CIs, n = 200.](figures/coefficient_plot.png){#fig-coef fig-alt="Forest plot of the nine OLS coefficients with 95% confidence intervals, split into gamification mechanics and controls. Rewards, in-app purchases and advertising are positive and significant; adjusted rating and feedback are negative and significant; levels, ranking and avatars overlap zero." width="100%"}
+![Estimated regression coefficients and 95% confidence intervals. Rewards, in-app purchases and advertising have positive associations with downloads; adjusted rating and feedback have negative associations.](figures/coefficient_plot.png){#fig-coef fig-alt="Forest plot of nine regression coefficients with HC3 robust 95% confidence intervals. Intervals for levels, ranking, avatars and price include zero." width="100%"}
 
-Dependent variable: `log10(downloads)`. n = 200.
-R²_adj = 0.248; F(9, 190) = 8.28, p < 0.001.
+Dependent variable: `log10(downloads)`. Sample: 200 apps.
+Adjusted R² = 0.248; F(9, 190) = 8.28, p < 0.001.
 
-| Predictor          | β        | p         | Interpretation                                  |
-|--------------------|----------|-----------|-------------------------------------------------|
-| Rewards            |  0.986   | 0.008 **  | ~9.7x downloads, the only gamification differentiator |
-| In-app purchases   |  0.736   | 0.005 **  | ~5.4x downloads (freemium effect)               |
-| Advertising        |  0.501   | 0.001 *** | ~3.2x downloads                                 |
-| Adjusted rating    | -1.846   | <0.001 ***| quality is not mass popularity                  |
-| Feedback           | -0.343   | 0.030 *   | marks niche / academic apps                     |
-| Levels             | -0.006   | 0.979     | now a baseline "hygiene" feature                |
-| Ranking            |  0.445   | 0.417     | not significant                                 |
-| Avatars            | -0.436   | 0.315     | not significant                                 |
-| Price              |  0.438   | 0.052     | marginal                                        |
+The table reports associations conditional on the other
+variables included in the model. Statistical significance
+is assessed at the 5% level.
+
+| Predictor | β | p | Interpretation |
+|---|---:|---:|---|
+| Rewards | 0.986 | 0.008 | Positive association |
+| In-app purchases | 0.736 | 0.005 | Positive association |
+| Advertising | 0.501 | 0.001 | Positive association |
+| Adjusted rating | -1.846 | <0.001 | Negative association |
+| Feedback | -0.343 | 0.030 | Negative association |
+| Levels | -0.006 | 0.979 | Not statistically significant |
+| Ranking | 0.445 | 0.417 | Not statistically significant |
+| Avatars | -0.436 | 0.315 | Not statistically significant |
+| Price | 0.438 | 0.052 | Not statistically significant |
 
 : {.striped .hover}
 
-**Reading of the headline finding.** Only **reward systems** are significantly
-associated with downloads. Applying the Halvorsen-Palmquist correction,
-`(10^0.986 - 1) * 100` works out to about +870%, meaning apps with reward
-systems are associated with roughly **9.7x the downloads** of comparable apps
-without them, holding the other factors constant. Levels and Ranking behave as
-**hygiene factors** (Herzberg): so standard that their presence no longer
-differentiates.
+### Interpreting the rewards coefficient
+
+Rewards were the only gamification feature with a statistically
+significant **positive** coefficient in Model I. Feedback had
+a statistically significant **negative** coefficient.
+
+Because the outcome uses a base-10 logarithm, the rewards
+coefficient corresponds to a multiplicative contrast of
+`10^0.986`, approximately **9.7**, on the back-transformed
+fitted scale, holding the included predictors constant.
+
+This is a model-based association, not evidence that adding
+rewards would multiply an app's downloads by 9.7. It should
+not be interpreted directly as a ratio of arithmetic mean
+downloads without additional retransformation assumptions.
+
+The non-significant coefficients for levels, ranking and
+avatars do not establish that these features have no effect
+or that they are standard features shared by all successful apps.
+
+### What the model does not measure
+
+Downloads describe reach or popularity. User ratings describe
+reported user evaluations. Neither directly measures learning
+outcomes or pedagogical quality.
+
+The negative coefficient for adjusted rating therefore does
+not show that educational quality reduces popularity.
+Similarly, the feedback coefficient alone cannot establish
+that apps with feedback serve a particular type of audience.
 
 ## Robustness of the Rewards coefficient
 
