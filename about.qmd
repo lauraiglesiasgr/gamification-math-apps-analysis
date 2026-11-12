@@ -18,7 +18,7 @@ about:
       href: https://github.com/lauraiglesiasgr
     - icon: file-earmark-pdf
       text: Download CV (PDF)
-      href: Laura_Iglesias_García_CV.pdf
+      href: https://lauraiglesiasgr.github.io/gamification-math-apps-analysis/Laura_Iglesias_Garc%C3%ADa_CV.pdf
 ---
 
 I am a Mathematics graduate with practical Business Intelligence
