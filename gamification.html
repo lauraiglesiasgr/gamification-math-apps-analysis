@@ -8,9 +8,9 @@
 
 <meta name="author" content="Laura Iglesias García">
 <meta name="dcterms.date" content="2026-11-12">
-<meta name="description" content="Do gamification mechanics drive downloads of primary-school math apps? An OLS analysis of 200 Google Play apps in R, with a full robustness protocol. Only reward systems move the needle, and popularity is not a proxy for pedagogical quality.">
+<meta name="description" content="Which gamification features are associated with app downloads? An observational analysis of 200 educational mathematics apps, using regression, robust standard errors and sensitivity checks.">
 
-<title>Gamification &amp; Commercial Success in Educational Math Apps – Laura Iglesias García</title>
+<title>Gamification &amp; Popularity of Educational Math Apps – Laura Iglesias García</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -114,18 +114,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<meta property="og:title" content="Gamification &amp; Commercial Success in Educational Math Apps – Laura Iglesias García">
-<meta property="og:description" content="Do gamification mechanics drive downloads of primary-school math apps? An OLS analysis of 200 Google Play apps in R, with a full robustness protocol. Only reward systems move the needle, and popularity is not a proxy for pedagogical quality.">
+<meta property="og:title" content="Gamification &amp; Popularity of Educational Math Apps – Laura Iglesias García">
+<meta property="og:description" content="Which gamification features are associated with app downloads? An observational analysis of 200 educational mathematics apps, using regression, robust standard errors and sensitivity checks.">
 <meta property="og:image" content="https://lauraiglesiasgr.github.io/gamification-math-apps-analysis/figures/coefficient_plot.png">
 <meta property="og:site_name" content="Laura Iglesias García">
 <meta property="og:image:height" content="1110">
 <meta property="og:image:width" content="1725">
-<meta property="og:image:alt" content="Forest plot of OLS regression coefficients showing that reward systems and the freemium model are the significant drivers of app downloads.
+<meta property="og:image:alt" content="Regression coefficients with 95% confidence intervals. Rewards, in-app purchases and advertising show positive associations with downloads; adjusted rating and feedback show negative associations in the fitted model.
 ">
-<meta name="twitter:title" content="Gamification &amp; Commercial Success in Educational Math Apps – Laura Iglesias García">
-<meta name="twitter:description" content="Do gamification mechanics drive downloads of primary-school math apps? An OLS analysis of 200 Google Play apps in R, with a full robustness protocol. Only reward systems move the needle, and popularity is not a proxy for pedagogical quality.">
+<meta name="twitter:title" content="Gamification &amp; Popularity of Educational Math Apps – Laura Iglesias García">
+<meta name="twitter:description" content="Which gamification features are associated with app downloads? An observational analysis of 200 educational mathematics apps, using regression, robust standard errors and sensitivity checks.">
 <meta name="twitter:image" content="https://lauraiglesiasgr.github.io/gamification-math-apps-analysis/figures/coefficient_plot.png">
-<meta name="twitter:image:alt" content="Forest plot of OLS regression coefficients showing that reward systems and the freemium model are the significant drivers of app downloads.
+<meta name="twitter:image:alt" content="Regression coefficients with 95% confidence intervals. Rewards, in-app purchases and advertising show positive associations with downloads; adjusted rating and feedback show negative associations in the fitted model.
 ">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -197,13 +197,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gamification &amp; Commercial Success in Educational Math Apps</h1>
-<p class="subtitle lead">An exploratory data analysis of Google Play Store open data (R)</p>
+<h1 class="title">Gamification &amp; Popularity of Educational Math Apps</h1>
+<p class="subtitle lead">An exploratory analysis of Google Play data in R</p>
 </div>
 
 <div>
   <div class="description">
-    <p>Do gamification mechanics drive downloads of primary-school math apps? An OLS analysis of 200 Google Play apps in R, with a full robustness protocol. Only reward systems move the needle, and popularity is not a proxy for pedagogical quality.</p>
+    <p>Which gamification features are associated with app downloads? An observational analysis of 200 educational mathematics apps, using regression, robust standard errors and sensitivity checks.</p>
   </div>
 </div>
 
@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div>
   <div class="abstract">
     <div class="block-title">Abstract</div>
-    <p>Do gamification mechanics drive downloads of primary-school math apps? Using a stratified random sample of 200 apps drawn from a cleaned population of 4,218 educational math apps, I fit a multiple linear regression (OLS) with HC3 robust standard errors and a full diagnostic and robustness protocol in R. Most mechanics show no significant association with downloads; only reward systems act as a genuine differentiator (roughly 9.7x more downloads), a result that holds across four independent robustness checks. The strongest overall driver is the freemium model. Commercial popularity is not a proxy for pedagogical quality.</p>
+    <p>Using a stratified random sample of 200 apps drawn from 4,218 educational mathematics apps, I examined associations between gamification features and download counts. The analysis used multiple linear regression in R, HC3 robust standard errors, model diagnostics and sensitivity checks, including 1,000 bootstrap resamples. In Model I, rewards showed a positive association with downloads, while feedback showed a negative association. Levels, ranking and avatars did not reach the 5% significance threshold. In-app purchases and advertising were also positively associated with downloads. These observational findings do not establish that adding a feature increases downloads. Educational effectiveness was not measured.</p>
   </div>
 </div>
 
