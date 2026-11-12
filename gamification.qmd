@@ -121,14 +121,27 @@ not show that educational quality reduces popularity.
 Similarly, the feedback coefficient alone cannot establish
 that apps with feedback serve a particular type of audience.
 
-## Robustness of the Rewards coefficient
+## Robustness and sensitivity of the rewards association
 
-| Check | Result | Conclusion |
-|-------|--------|------------|
-| Drop influential obs. | β = 1.566, p < 0.001, R²_adj = 0.322 | Effect strengthens |
-| Bootstrap (1,000) | 95% CI [0.17; 1.64] | Excludes zero |
-| Exact Fisher (Stratum by Rewards) | p = 0.002 | Concentration in high stratum not random |
-| m0 sensitivity (6 values) | β in [0.954; 1.006], p < 0.01 throughout | Independent of hyperparameter |
+The following checks examine sensitivity to influential
+observations, resampling and selected modelling choices.
+They use the same underlying dataset and are not independent
+replications of the study.
+
+| Check | Reported result | Interpretation |
+|---|---|---|
+| Excluding influential observations | β = 1.566, p < 0.001; adjusted R² = 0.322 | The positive association persists; its estimated magnitude increases |
+| Bootstrap, 1,000 resamples | 95% coefficient interval [0.17, 1.64] | The interval excludes zero but indicates substantial uncertainty about magnitude |
+| Fisher's exact test: download stratum × rewards | p = 0.002 | Evidence of an unadjusted association between rewards and download stratum |
+| Rating-shrinkage sensitivity: six m0 values | β ranges from 0.954 to 1.006; p < 0.01 throughout | The rewards coefficient remains similar across the six tested settings |
+
+The Fisher test examines a different, unadjusted relationship;
+it does not validate the regression coefficient itself.
+
+Together, these checks support the persistence of the positive
+rewards association under the tested conditions. They do not
+resolve unmeasured confounding, establish causality or guarantee
+that the result generalises beyond the analysed apps.
 
 ## The code (illustrative)
 
@@ -154,12 +167,33 @@ coeftest(model_I, vcov = vcovHC(model_I, type = "HC3"))
 
 ## Takeaways
 
-- **For developers:** invest in well-integrated reward systems and a freemium
-  model; levels and rankings alone no longer move the needle.
-- **For educators:** download counts are *not* a quality signal, since the
-  best-rated apps tend to be niche tools with small, loyal audiences.
-- **Limitation:** store metrics capture commercial reach, not learning. Measuring
-  real educational impact would need longitudinal usage data.
+- **For product teams:** the positive association between rewards
+  and downloads provides a hypothesis for further investigation.
+  It does not establish the return from adding rewards or changing
+  an app's monetisation model. Controlled experiments would be
+  needed to evaluate those decisions.
+
+- **For educators:** download counts and user ratings should not
+  substitute for direct evidence of learning, accessibility or
+  suitability for a particular classroom.
+
+- **For analysts:** the interpretation depends on the outcome
+  definition, sample, model specification and uncertainty.
+  Robustness checks strengthen the assessment of an association
+  within the tested conditions; they do not turn it into a
+  causal effect.
+
+### Limitations and next steps
+
+This cross-sectional study measures associations at one point
+in time. Unmeasured differences between apps, such as age,
+marketing exposure or development resources, could influence
+the observed relationships.
+
+A stronger follow-up would use longitudinal data, additional
+confounder measurements and experimental or credible
+quasi-experimental designs. Educational effectiveness would
+require separate learning-outcome measures.
 
 ---
 
