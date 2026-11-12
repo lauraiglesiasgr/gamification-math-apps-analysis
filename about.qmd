@@ -37,25 +37,58 @@ I am based in Madrid, available immediately and willing to relocate.
 
 ### PKF Attest · Madrid
 
-**Business Intelligence Intern · 676 hours**
+## Business Intelligence experience
 
-As the only intern in an eight-person BI team, I worked across
-three live client accounts, contributing to data preparation,
-modelling, reporting and visualisation.
+### PKF Attest · Spain
 
-- Developed Power BI dashboards and DAX calculations for client reporting.
-- Prepared and transformed data with Power Query and worked with
-  SQL Server stored procedures and data models.
-- Investigated a reconciliation issue involving two source systems,
-  identified duplicate records, corrected them and added checks
-  to prevent recurrence.
-- Independently designed a client tracking report, from discussing
-  requirements to building billing and customer quality reporting pages.
-- Presented dashboards to clients and trained business users.
+**Business Intelligence Intern · September 2024–January 2025 · 676 hours**
 
-The work I find most rewarding is making reporting trustworthy:
-understanding where a number comes from, checking how it is
-calculated and explaining what it can support.
+I worked on live projects for Weleda, Inncome and FAES Farma
+as the only intern in an eight-person BI team. The firm extended
+my internship, which concluded when I began the mandatory,
+fixed-schedule teaching placement for my concurrent degree
+in Primary Education.
+
+**Commercial reporting for Weleda**
+
+I developed a Power BI sales dashboard, from discussions
+with the client about requirements to billing and customer
+analysis pages.
+
+Using DAX, I calculated gross and net billing, year-to-date
+totals, year-on-year changes, customer activity and top-10
+customer concentration. Users could explore performance
+by product, channel, region and salesperson.
+
+I also calculated quartile-based RFM customer segments,
+using colours and icons to distinguish key, loyal, at-risk
+and inactive customers. With support, I configured security
+roles to restrict access to company data.
+
+**Data quality and reconciliation for Inncome**
+
+I investigated billing discrepancies across MySQL and Navision
+sources. In Power Query, I combined and cleaned the data,
+identified duplicate records and removed them after approval
+from my supervisor.
+
+The resulting totals matched estimates provided by the client,
+who confirmed their consistency during a review meeting.
+
+**Data modelling and user communication**
+
+I queried and joined SQL tables to understand their relationships,
+then modelled one-to-many relationships between billing and
+date, customer, product and salesperson tables in Power BI.
+
+My work also included SQL Server stored procedures, query
+optimisation, SSIS, Azure Data Factory and multidimensional
+models. I presented dashboards, explained calculations and
+supported business users.
+
+This experience taught me to connect technical work with
+business questions: understand the source, validate the
+calculation and explain what the result can support.
 
 ## Selected projects
 
