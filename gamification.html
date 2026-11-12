@@ -410,44 +410,47 @@ Figure&nbsp;3: Estimated regression coefficients and 95% confidence intervals. R
 <p>The negative coefficient for adjusted rating therefore does not show that educational quality reduces popularity. Similarly, the feedback coefficient alone cannot establish that apps with feedback serve a particular type of audience.</p>
 </section>
 </section>
-<section id="robustness-of-the-rewards-coefficient" class="level2">
-<h2 class="anchored" data-anchor-id="robustness-of-the-rewards-coefficient">Robustness of the Rewards coefficient</h2>
+<section id="robustness-and-sensitivity-of-the-rewards-association" class="level2">
+<h2 class="anchored" data-anchor-id="robustness-and-sensitivity-of-the-rewards-association">Robustness and sensitivity of the rewards association</h2>
+<p>The following checks examine sensitivity to influential observations, resampling and selected modelling choices. They use the same underlying dataset and are not independent replications of the study.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 29%">
-<col style="width: 44%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Check</th>
-<th>Result</th>
-<th>Conclusion</th>
+<th>Reported result</th>
+<th>Interpretation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Drop influential obs.</td>
-<td>β = 1.566, p &lt; 0.001, R²_adj = 0.322</td>
-<td>Effect strengthens</td>
+<td>Excluding influential observations</td>
+<td>β = 1.566, p &lt; 0.001; adjusted R² = 0.322</td>
+<td>The positive association persists; its estimated magnitude increases</td>
 </tr>
 <tr class="even">
-<td>Bootstrap (1,000)</td>
-<td>95% CI [0.17; 1.64]</td>
-<td>Excludes zero</td>
+<td>Bootstrap, 1,000 resamples</td>
+<td>95% coefficient interval [0.17, 1.64]</td>
+<td>The interval excludes zero but indicates substantial uncertainty about magnitude</td>
 </tr>
 <tr class="odd">
-<td>Exact Fisher (Stratum by Rewards)</td>
+<td>Fisher’s exact test: download stratum × rewards</td>
 <td>p = 0.002</td>
-<td>Concentration in high stratum not random</td>
+<td>Evidence of an unadjusted association between rewards and download stratum</td>
 </tr>
 <tr class="even">
-<td>m0 sensitivity (6 values)</td>
-<td>β in [0.954; 1.006], p &lt; 0.01 throughout</td>
-<td>Independent of hyperparameter</td>
+<td>Rating-shrinkage sensitivity: six m0 values</td>
+<td>β ranges from 0.954 to 1.006; p &lt; 0.01 throughout</td>
+<td>The rewards coefficient remains similar across the six tested settings</td>
 </tr>
 </tbody>
 </table>
+<p>The Fisher test examines a different, unadjusted relationship; it does not validate the regression coefficient itself.</p>
+<p>Together, these checks support the persistence of the positive rewards association under the tested conditions. They do not resolve unmeasured confounding, establish causality or guarantee that the result generalises beyond the analysed apps.</p>
 </section>
 <section id="the-code-illustrative" class="level2">
 <h2 class="anchored" data-anchor-id="the-code-illustrative">The code (illustrative)</h2>
@@ -466,14 +469,19 @@ Figure&nbsp;3: Estimated regression coefficients and 95% confidence intervals. R
 <section id="takeaways" class="level2">
 <h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
 <ul>
-<li><strong>For developers:</strong> invest in well-integrated reward systems and a freemium model; levels and rankings alone no longer move the needle.</li>
-<li><strong>For educators:</strong> download counts are <em>not</em> a quality signal, since the best-rated apps tend to be niche tools with small, loyal audiences.</li>
-<li><strong>Limitation:</strong> store metrics capture commercial reach, not learning. Measuring real educational impact would need longitudinal usage data.</li>
+<li><p><strong>For product teams:</strong> the positive association between rewards and downloads provides a hypothesis for further investigation. It does not establish the return from adding rewards or changing an app’s monetisation model. Controlled experiments would be needed to evaluate those decisions.</p></li>
+<li><p><strong>For educators:</strong> download counts and user ratings should not substitute for direct evidence of learning, accessibility or suitability for a particular classroom.</p></li>
+<li><p><strong>For analysts:</strong> the interpretation depends on the outcome definition, sample, model specification and uncertainty. Robustness checks strengthen the assessment of an association within the tested conditions; they do not turn it into a causal effect.</p></li>
 </ul>
+<section id="limitations-and-next-steps" class="level3">
+<h3 class="anchored" data-anchor-id="limitations-and-next-steps">Limitations and next steps</h3>
+<p>This cross-sectional study measures associations at one point in time. Unmeasured differences between apps, such as age, marketing exposure or development resources, could influence the observed relationships.</p>
+<p>A stronger follow-up would use longitudinal data, additional confounder measurements and experimental or credible quasi-experimental designs. Educational effectiveness would require separate learning-outcome measures.</p>
 <hr>
 <p><em>Full written thesis (Spanish) in <a href="https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/tree/main/report"><code>/report</code></a>. Code under MIT license; data obtained from Kaggle (see <a href="https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/tree/main/data"><code>/data</code></a>).</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
