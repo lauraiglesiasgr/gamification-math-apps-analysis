@@ -188,3 +188,10 @@ Resumen del estudio, resultados y alcance.
 This case complements my work in mathematics and data analysis. [Explore my project on gamification and mathematics apps →](../gamification.qmd)
 
 **Source:** Iglesias García, L. (2026). *Estudio de la flexibilidad matemática en Educación Primaria a través de juegos de resolución múltiple*. Primary Education bachelor's thesis, Universidad Rey Juan Carlos. This adaptation presents aggregate evidence; the original PDF and participant records are not redistributed.
+
+[View the official university record](https://hdl.handle.net/10115/428077)
+
+The university repository provides the thesis title, author,
+date and academic supervisors. Access to the full thesis PDF
+is restricted; this portfolio presents selected aggregate
+findings and methodological details.
