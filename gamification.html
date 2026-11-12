@@ -319,90 +319,96 @@ Figure&nbsp;2: Gamification mechanics tend to be adopted together (strongest cor
 </section>
 <section id="key-results-model-i-ols-hc3-robust-errors" class="level2">
 <h2 class="anchored" data-anchor-id="key-results-model-i-ols-hc3-robust-errors">Key results: Model I (OLS, HC3 robust errors)</h2>
-<div id="fig-coef" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Forest plot of the nine OLS coefficients with 95% confidence intervals, split into gamification mechanics and controls. Rewards, in-app purchases and advertising are positive and significant; adjusted rating and feedback are negative and significant; levels, ranking and avatars overlap zero.">
+<div id="fig-coef" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Forest plot of nine regression coefficients with HC3 robust 95% confidence intervals. Intervals for levels, ranking, avatars and price include zero.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-coef-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/coefficient_plot.png" class="img-fluid figure-img" style="width:100.0%" alt="Forest plot of the nine OLS coefficients with 95% confidence intervals, split into gamification mechanics and controls. Rewards, in-app purchases and advertising are positive and significant; adjusted rating and feedback are negative and significant; levels, ranking and avatars overlap zero.">
+<img src="figures/coefficient_plot.png" class="img-fluid figure-img" style="width:100.0%" alt="Forest plot of nine regression coefficients with HC3 robust 95% confidence intervals. Intervals for levels, ranking, avatars and price include zero.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-coef-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Only reward systems are a significant gamification differentiator; the freemium model (in-app purchases, advertising) is the strongest overall driver. Adjusted rating and feedback are negative and significant; levels, ranking and avatars are not. OLS, HC3 robust 95% CIs, n = 200.
+Figure&nbsp;3: Estimated regression coefficients and 95% confidence intervals. Rewards, in-app purchases and advertising have positive associations with downloads; adjusted rating and feedback have negative associations.
 </figcaption>
 </figure>
 </div>
-<p>Dependent variable: <code>log10(downloads)</code>. n = 200. R²_adj = 0.248; F(9, 190) = 8.28, p &lt; 0.001.</p>
+<p>Dependent variable: <code>log10(downloads)</code>. Sample: 200 apps. Adjusted R² = 0.248; F(9, 190) = 8.28, p &lt; 0.001.</p>
+<p>The table reports associations conditional on the other variables included in the model. Statistical significance is assessed at the 5% level.</p>
 <table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 22%">
-<col style="width: 11%">
-<col style="width: 12%">
-<col style="width: 54%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Predictor</th>
-<th>β</th>
-<th>p</th>
+<th style="text-align: right;">β</th>
+<th style="text-align: right;">p</th>
 <th>Interpretation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Rewards</td>
-<td>0.986</td>
-<td>0.008 **</td>
-<td>~9.7x downloads, the only gamification differentiator</td>
+<td style="text-align: right;">0.986</td>
+<td style="text-align: right;">0.008</td>
+<td>Positive association</td>
 </tr>
 <tr class="even">
 <td>In-app purchases</td>
-<td>0.736</td>
-<td>0.005 **</td>
-<td>~5.4x downloads (freemium effect)</td>
+<td style="text-align: right;">0.736</td>
+<td style="text-align: right;">0.005</td>
+<td>Positive association</td>
 </tr>
 <tr class="odd">
 <td>Advertising</td>
-<td>0.501</td>
-<td>0.001 ***</td>
-<td>~3.2x downloads</td>
+<td style="text-align: right;">0.501</td>
+<td style="text-align: right;">0.001</td>
+<td>Positive association</td>
 </tr>
 <tr class="even">
 <td>Adjusted rating</td>
-<td>-1.846</td>
-<td>&lt;0.001 ***</td>
-<td>quality is not mass popularity</td>
+<td style="text-align: right;">-1.846</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>Negative association</td>
 </tr>
 <tr class="odd">
 <td>Feedback</td>
-<td>-0.343</td>
-<td>0.030 *</td>
-<td>marks niche / academic apps</td>
+<td style="text-align: right;">-0.343</td>
+<td style="text-align: right;">0.030</td>
+<td>Negative association</td>
 </tr>
 <tr class="even">
 <td>Levels</td>
-<td>-0.006</td>
-<td>0.979</td>
-<td>now a baseline “hygiene” feature</td>
+<td style="text-align: right;">-0.006</td>
+<td style="text-align: right;">0.979</td>
+<td>Not statistically significant</td>
 </tr>
 <tr class="odd">
 <td>Ranking</td>
-<td>0.445</td>
-<td>0.417</td>
-<td>not significant</td>
+<td style="text-align: right;">0.445</td>
+<td style="text-align: right;">0.417</td>
+<td>Not statistically significant</td>
 </tr>
 <tr class="even">
 <td>Avatars</td>
-<td>-0.436</td>
-<td>0.315</td>
-<td>not significant</td>
+<td style="text-align: right;">-0.436</td>
+<td style="text-align: right;">0.315</td>
+<td>Not statistically significant</td>
 </tr>
 <tr class="odd">
 <td>Price</td>
-<td>0.438</td>
-<td>0.052</td>
-<td>marginal</td>
+<td style="text-align: right;">0.438</td>
+<td style="text-align: right;">0.052</td>
+<td>Not statistically significant</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Reading of the headline finding.</strong> Only <strong>reward systems</strong> are significantly associated with downloads. Applying the Halvorsen-Palmquist correction, <code>(10^0.986 - 1) * 100</code> works out to about +870%, meaning apps with reward systems are associated with roughly <strong>9.7x the downloads</strong> of comparable apps without them, holding the other factors constant. Levels and Ranking behave as <strong>hygiene factors</strong> (Herzberg): so standard that their presence no longer differentiates.</p>
+<section id="interpreting-the-rewards-coefficient" class="level3">
+<h3 class="anchored" data-anchor-id="interpreting-the-rewards-coefficient">Interpreting the rewards coefficient</h3>
+<p>Rewards were the only gamification feature with a statistically significant <strong>positive</strong> coefficient in Model I. Feedback had a statistically significant <strong>negative</strong> coefficient.</p>
+<p>Because the outcome uses a base-10 logarithm, the rewards coefficient corresponds to a multiplicative contrast of <code>10^0.986</code>, approximately <strong>9.7</strong>, on the back-transformed fitted scale, holding the included predictors constant.</p>
+<p>This is a model-based association, not evidence that adding rewards would multiply an app’s downloads by 9.7. It should not be interpreted directly as a ratio of arithmetic mean downloads without additional retransformation assumptions.</p>
+<p>The non-significant coefficients for levels, ranking and avatars do not establish that these features have no effect or that they are standard features shared by all successful apps.</p>
+</section>
+<section id="what-the-model-does-not-measure" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-model-does-not-measure">What the model does not measure</h3>
+<p>Downloads describe reach or popularity. User ratings describe reported user evaluations. Neither directly measures learning outcomes or pedagogical quality.</p>
+<p>The negative coefficient for adjusted rating therefore does not show that educational quality reduces popularity. Similarly, the feedback coefficient alone cannot establish that apps with feedback serve a particular type of audience.</p>
+</section>
 </section>
 <section id="robustness-of-the-rewards-coefficient" class="level2">
 <h2 class="anchored" data-anchor-id="robustness-of-the-rewards-coefficient">Robustness of the Rewards coefficient</h2>
