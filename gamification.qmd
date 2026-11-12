@@ -47,7 +47,7 @@ This is an **observational, cross-sectional** study. All results describe
 | Source | Google Play Store Apps (Kaggle, gauthamp10, 2021), ~2.3M raw records |
 | Cleaning | Deduplication, null handling, `Rating Count > 0`, numeric coercion |
 | Target population | 4,218 educational **math** apps via a precision-oriented semantic keyword filter (validated recall gap ~6.4%) |
-| Sampling | Stratified random sampling on log10-downloads; 4 quartile strata; n = 200 (50 per stratum); design weights near-uniform (~21.09), so unweighted OLS is unbiased for the population |
+| Sampling | Stratified random sampling across four population quartiles of log10-downloads; n = 200, with 50 apps per stratum. The thesis reports stratum sizes of 1,054–1,055 apps and near-identical design weights (~21.09), motivating the use of unweighted OLS. |
 | Coding | 5 binary gamification variables coded by manual interface inspection; inter-rater reliability via Cohen's kappa (κ = 0.831 after reconciliation) |
 | Model | OLS, log-level form; HC3 robust standard errors; Halvorsen-Palmquist correction for dummy variables |
 | Diagnostics | VIF, Breusch-Pagan, Shapiro-Wilk + Q-Q, Cook's distance |
