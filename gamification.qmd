@@ -1,27 +1,33 @@
 ---
-title: "Gamification & Commercial Success in Educational Math Apps"
-subtitle: "An exploratory data analysis of Google Play Store open data (R)"
+title: "Gamification & Popularity of Educational Math Apps"
+subtitle: "An exploratory analysis of Google Play data in R"
 author: "Laura Iglesias García"
 date: last-modified
 description: >
-  Do gamification mechanics drive downloads of primary-school math apps?
-  An OLS analysis of 200 Google Play apps in R, with a full robustness
-  protocol. Only reward systems move the needle, and popularity is not a
-  proxy for pedagogical quality.
+  Which gamification features are associated with app downloads?
+  An observational analysis of 200 educational mathematics apps,
+  using regression, robust standard errors and sensitivity checks.
 image: figures/coefficient_plot.png
 image-alt: >
-  Forest plot of OLS regression coefficients showing that reward systems and
-  the freemium model are the significant drivers of app downloads.
+  Regression coefficients with 95% confidence intervals.
+  Rewards, in-app purchases and advertising show positive
+  associations with downloads; adjusted rating and feedback
+  show negative associations in the fitted model.
 abstract: >
-  Do gamification mechanics drive downloads of primary-school math apps?
-  Using a stratified random sample of 200 apps drawn from a cleaned population
-  of 4,218 educational math apps, I fit a multiple linear regression (OLS) with
-  HC3 robust standard errors and a full diagnostic and robustness protocol in R.
-  Most mechanics show no significant association with downloads; only reward
-  systems act as a genuine differentiator (roughly 9.7x more downloads), a
-  result that holds across four independent robustness checks. The strongest
-  overall driver is the freemium model. Commercial popularity is not a proxy
-  for pedagogical quality.
+  Using a stratified random sample of 200 apps drawn from
+  4,218 educational mathematics apps, I examined associations
+  between gamification features and download counts.
+  The analysis used multiple linear regression in R,
+  HC3 robust standard errors, model diagnostics and
+  sensitivity checks, including 1,000 bootstrap resamples.
+  In Model I, rewards showed a positive association with
+  downloads, while feedback showed a negative association.
+  Levels, ranking and avatars did not reach the 5% significance
+  threshold. In-app purchases and advertising were also
+  positively associated with downloads.
+  These observational findings do not establish that adding
+  a feature increases downloads. Educational effectiveness
+  was not measured.
 ---
 
 ## Research question
