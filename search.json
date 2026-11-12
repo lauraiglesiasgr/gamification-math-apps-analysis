@@ -49,6 +49,202 @@
     "text": "Contact\nInterested in discussing a junior opportunity in Data Analytics, Business Intelligence or applied research?\nEmail me · Connect on LinkedIn · Explore my GitHub"
   },
   {
+    "objectID": "SETUP.html",
+    "href": "SETUP.html",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "A one-time checklist to get this repository online and the report live on GitHub Pages.\n\n\n\nAdd the thesis PDF as report/TFG_Iglesias_Garcia.pdf.\nConfirm no personal data or local paths are committed (the raw/coded data files are already git-ignored; scripts use relative paths).\nIn _quarto.yml and README.md, replace YOUR_USERNAME with your GitHub handle.\n\n\n\n\ncd gamification-math-apps-analysis\ngit init\ngit add .\ngit commit -m \"Initial commit: TFG gamification analysis (R + Quarto)\"\n\n\n\nCreate an empty public repo on GitHub named gamification-math-apps-analysis (no README/License — this repo has them), then:\ngit remote add origin https://github.com/YOUR_USERNAME/gamification-math-apps-analysis.git\ngit branch -M main\ngit push -u origin main\n\n\n\nOption A — automatic (recommended, no local render). The included Action (.github/workflows/publish.yml) renders index.qmd and pushes the site to a gh-pages branch on every push to main. After the first run finishes: 1. Repo → Settings → Pages. 2. Source: Deploy from a branch → Branch gh-pages → /(root) → Save. 3. Wait ~1 min; your site is at https://YOUR_USERNAME.github.io/gamification-math-apps-analysis/.\nOption B — one command from your machine (needs Quarto installed):\nquarto publish gh-pages\nThis renders locally and pushes to gh-pages in one step.\n\n\n\n# Open the project at its root, then:\nsource(\"R/00_run_all.R\")\nAdd the data files first (see data/README.md). Scripts 03 and 04 need the extra coding files; comment them out in 00_run_all.R if you don’t have them — the modelling chain 05→13 does not depend on them.\n\n\n\n\nAdd the repo and the live report link to LinkedIn (Projects section).\nPin the repo on your GitHub profile.\nLink it in your CV and cover letters (great fit for data-analyst roles).\nOptionally publish a notebook version on Kaggle and deposit the thesis in the URJC institutional repository."
+  },
+  {
+    "objectID": "SETUP.html#before-you-push-clean-up-checklist",
+    "href": "SETUP.html#before-you-push-clean-up-checklist",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "Add the thesis PDF as report/TFG_Iglesias_Garcia.pdf.\nConfirm no personal data or local paths are committed (the raw/coded data files are already git-ignored; scripts use relative paths).\nIn _quarto.yml and README.md, replace YOUR_USERNAME with your GitHub handle."
+  },
+  {
+    "objectID": "SETUP.html#put-the-project-under-version-control",
+    "href": "SETUP.html#put-the-project-under-version-control",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "cd gamification-math-apps-analysis\ngit init\ngit add .\ngit commit -m \"Initial commit: TFG gamification analysis (R + Quarto)\""
+  },
+  {
+    "objectID": "SETUP.html#create-the-github-repository-and-push",
+    "href": "SETUP.html#create-the-github-repository-and-push",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "Create an empty public repo on GitHub named gamification-math-apps-analysis (no README/License — this repo has them), then:\ngit remote add origin https://github.com/YOUR_USERNAME/gamification-math-apps-analysis.git\ngit branch -M main\ngit push -u origin main"
+  },
+  {
+    "objectID": "SETUP.html#publish-the-report-to-github-pages",
+    "href": "SETUP.html#publish-the-report-to-github-pages",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "Option A — automatic (recommended, no local render). The included Action (.github/workflows/publish.yml) renders index.qmd and pushes the site to a gh-pages branch on every push to main. After the first run finishes: 1. Repo → Settings → Pages. 2. Source: Deploy from a branch → Branch gh-pages → /(root) → Save. 3. Wait ~1 min; your site is at https://YOUR_USERNAME.github.io/gamification-math-apps-analysis/.\nOption B — one command from your machine (needs Quarto installed):\nquarto publish gh-pages\nThis renders locally and pushes to gh-pages in one step."
+  },
+  {
+    "objectID": "SETUP.html#optional-run-the-full-analysis",
+    "href": "SETUP.html#optional-run-the-full-analysis",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "# Open the project at its root, then:\nsource(\"R/00_run_all.R\")\nAdd the data files first (see data/README.md). Scripts 03 and 04 need the extra coding files; comment them out in 00_run_all.R if you don’t have them — the modelling chain 05→13 does not depend on them."
+  },
+  {
+    "objectID": "SETUP.html#amplify-it-for-job-applications",
+    "href": "SETUP.html#amplify-it-for-job-applications",
+    "title": "Setup & publishing guide",
+    "section": "",
+    "text": "Add the repo and the live report link to LinkedIn (Projects section).\nPin the repo on your GitHub profile.\nLink it in your CV and cover letters (great fit for data-analyst roles).\nOptionally publish a notebook version on Kaggle and deposit the thesis in the URJC institutional repository."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Selected projects",
+    "section": "",
+    "text": "My projects combine professional Business Intelligence experience with mathematical and statistical analysis.\nEach case explains the question, my contribution, the methods used and the evidence available."
+  },
+  {
+    "objectID": "projects.html#climate-trends-in-spain-and-europe",
+    "href": "projects.html#climate-trends-in-spain-and-europe",
+    "title": "Selected projects",
+    "section": "Climate Trends in Spain and Europe",
+    "text": "Climate Trends in Spain and Europe\nProfessional project · PKF Attest · Power BI · Data analysis\n\nResearch question\nHow have temperature and precipitation patterns evolved across Spain and Europe?\n\n\nMy contribution\nCarried out the end-to-end analysis, from source data through to visual reporting and short and long report formats for clients.\nThe report was subsequently published by PKF Attest. Official publication (English) · Read the report (PDF, Spanish)\n\n\nSkills demonstrated\n\nData preparation and structuring.\nAnalysis of geographical and temporal patterns.\nPower BI visualisation.\nInterpretation and communication of findings.\nDelivery of an analytical project from data to reports."
+  },
+  {
+    "objectID": "projects.html#gamification-commercial-success-in-educational-math-apps",
+    "href": "projects.html#gamification-commercial-success-in-educational-math-apps",
+    "title": "Selected projects",
+    "section": "Gamification & Commercial Success in Educational Math Apps",
+    "text": "Gamification & Commercial Success in Educational Math Apps\nMathematics bachelor’s thesis · R · Statistical modelling\n\nResearch question\nWhich gamification features are associated with downloads of educational mathematics apps?\n\n\nMy contribution\nAnalysed a stratified sample of 200 apps drawn from a cleaned population of 4,218 educational mathematics apps.\nUsed multiple linear regression with HC3 robust standard errors, diagnostic checks and sensitivity analyses to examine associations between app features and downloads.\n\n\nSkills demonstrated\n\nData cleaning and sampling.\nStatistical modelling in R.\nModel diagnostics and robustness assessment.\nInterpretation of observational evidence.\nReproducible analytical documentation.\n\nRead the case study · Explore the code · Read the thesis (Spanish PDF) · Official university record"
+  },
+  {
+    "objectID": "projects.html#mathematical-flexibility-in-primary-education",
+    "href": "projects.html#mathematical-flexibility-in-primary-education",
+    "title": "Selected projects",
+    "section": "Mathematical Flexibility in Primary Education",
+    "text": "Mathematical Flexibility in Primary Education\nPrimary Education bachelor’s thesis · Mixed methods · JASP\n\nResearch question\nWhat mathematical strategies become visible during fraction games, and how do written assessment scores differ before and after the sequence?\n\n\nMy contribution\nDesigned three games, assessment instruments and a five-session classroom study.\nCombined written assessments, structured observation and qualitative records for a follow-up sample of 15 participants selected within a class of 22.\n\n\nSkills demonstrated\n\nResearch and instrument design.\nStratified sampling and structured data collection.\nDescriptive statistics and paired non-parametric testing.\nQuantitative and qualitative interpretation.\nCritical evaluation of measurement and study limitations.\n\nRead the case study · Methods · Results & evidence · Official university record"
+  },
+  {
+    "objectID": "projects.html#discuss-my-work",
+    "href": "projects.html#discuss-my-work",
+    "title": "Selected projects",
+    "section": "Discuss my work",
+    "text": "Discuss my work\nFor junior opportunities in Data Analytics, Business Intelligence or applied research:\nAbout my experience · Email · LinkedIn"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html",
+    "href": "mathematical-flexibility/index.html",
+    "title": "Making mathematical thinking visible",
+    "section": "",
+    "text": "Case study · Methods · Results & evidence · Español · All projects"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#findings",
+    "href": "mathematical-flexibility/index.html#findings",
+    "title": "Making mathematical thinking visible",
+    "section": "Findings at a glance",
+    "text": "Findings at a glance\n\n\n01\n\nHigher written scores\nMedian questionnaire scores rose from 14 to 17 / 20 in the follow-up sample. Thirteen scores increased and two stayed at the maximum.\n\n\n\n02\n\nVisible strategy choices\n188 of 270 criterion ratings during the three games were coded as spontaneous. Other ratings recorded peer or teacher prompting, or were not observable.\n\n\n\n03\n\nDifferent evidence across formats\nQualitative observations raised questions about reasoning visible during play and the evidence captured by written tasks.\n\n\n\n\nWritten assessment: before and after\n\n   \n\nWritten questionnaire scores. Medians are the primary summary; means are complementary. Source: thesis Table 4.2.\n\n\nThe mean change was +2.67 points out of 20. The thesis reports a paired Wilcoxon test with W = 0, two-sided p = 0.001. Statistical detail and source tables →\n\n\nStrategy origins during play\n\n   \n\nStrategy-origin ratings. Each session contains 90 criterion ratings from the same 15 pupils. Source: thesis Table 4.1.\n\n\nSpontaneous strategies were the most frequent category in every session. Each game used a different rubric and appeared in a fixed order, so these bars describe observations rather than rank game effectiveness. Accessible counts and provenance →"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#design",
+    "href": "mathematical-flexibility/index.html#design",
+    "title": "Making mathematical thinking visible",
+    "section": "Research design",
+    "text": "Research design\nQuestion: What strategies become visible in multiple-solution fraction games, and how do written scores differ before and after the sequence?\nI combined a pre-post comparison with observation and qualitative records. A class of 22 pupils completed the baseline questionnaire. Five participants were selected by lottery within each of three baseline competence strata, producing a 15-participant follow-up sample.\n\n\n\nFive sessions combined written assessment with classroom observation.\n\n\n\n\n\n\n\n\n\nEvidence source\nWhat it contributed\n\n\n\n\nWritten questionnaires, scored out of 20\nFraction knowledge, representations and explanations before and after the sequence\n\n\nSix-criterion rubric for each game\nStructured evidence of reasoning within each activity\n\n\nStrategy-origin codes\nWhether a strategy appeared spontaneously or following prompting\n\n\nField notes and open responses\nContext for interpreting numerical patterns and differences between formats\n\n\n\nThe approach was mixed-methods, with qualitative emphasis. Written scores, observation and field notes were interpreted together. Sampling, instruments and analysis decisions →"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#intervention",
+    "href": "mathematical-flexibility/index.html#intervention",
+    "title": "Making mathematical thinking visible",
+    "section": "Inside the intervention",
+    "text": "Inside the intervention\nI designed three games to create more than one valid route to a solution. The aim was to make procedure choice, representation and adaptation observable.\n\n01 / Procedural emphasis\n\nFracciChef\n\n\n\nIllustrative game mechanic: two quarter cards or one half card can satisfy a recipe requiring two quarters.\n\n\nPlayers combine ingredient cards to complete a recipe. Different equivalent combinations make it possible to observe which route a player chooses and how they justify it.\n\n\n\n02 / Representational emphasis\n\nDominó Fraccionario\n\n\n\nIllustrative equivalence: a half-shaded rectangle and the symbolic fraction two quarters represent the same quantity.\n\n\nA valid connection depends on equivalent quantities across visual and symbolic forms. Matching values requires looking beyond identical notation.\n\n\n\n03 / Strategic emphasis\n\nFraccUNO\n\n\n\nIllustrative choice: a blue half card can be followed by a blue three-quarters card through colour, or a red two-quarters card through equivalent value.\n\n\nPlayers can have several legal moves. Choosing between a colour match and an equivalent value creates an opportunity to explain and adapt a strategy.\n\n\nThe diagrams above are newly drawn explanations of documented rules, not reproductions of pupil work or the original card artwork. Each game was observed in one session, so game mechanics, rubric and order cannot be separated analytically."
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#contribution",
+    "href": "mathematical-flexibility/index.html#contribution",
+    "title": "Making mathematical thinking visible",
+    "section": "My analytical contribution",
+    "text": "My analytical contribution\nMy contribution covered the research process from the question to interpretation. The decisions below show the methodological work behind the findings.\n\n\n\n\n\n\n\n\nDecision\nPurpose\nEvidence of skill\n\n\n\n\nInclude different baseline competence levels\nObserve a range of starting profiles\nSampling design\n\n\nDefine rubrics and strategy-origin codes\nStructure classroom observations\nOperationalisation and data collection\n\n\nCompare paired questionnaire scores\nExamine within-participant change\nDescriptive statistics and non-parametric testing\n\n\nRead scores alongside field notes\nInvestigate agreement and divergence between sources\nMixed-methods interpretation\n\n\nExamine ceiling effects and assessment demands\nBound the claims supported by the study\nMeasurement critique and analytical judgement\n\n\n\nTools and scope: the original thesis reports JASP 0.18 for numerical analysis. Quarto and the Python aggregate-figure script were added later for this portfolio. The script regenerates figures from transcribed summaries; it does not reproduce the full original analysis."
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#interpretation",
+    "href": "mathematical-flexibility/index.html#interpretation",
+    "title": "Making mathematical thinking visible",
+    "section": "Interpretation & next study",
+    "text": "Interpretation & next study\nThe study documents higher written scores after the sequence and a range of strategies during play. Its broader contribution is a research process that considers both performance and how evidence of performance is collected.\nThis exploratory study describes a change within one classroom. The absence of a control group, differences between assessment conditions and the short follow-up limit the conclusions. Study limitations and measurement details →\nA stronger next study would combine a comparison group, delayed follow-up, harmonised assessment conditions and independent observation. Full methodological limitations →"
+  },
+  {
+    "objectID": "mathematical-flexibility/index.html#documentation",
+    "href": "mathematical-flexibility/index.html#documentation",
+    "title": "Making mathematical thinking visible",
+    "section": "Documentation & related work",
+    "text": "Documentation & related work\n\n\nMethods\nSampling, instruments, procedure and analytical choices.\nExplore the methodology →\n\n\nEvidence & data\nSource tables, statistical notes and data availability.\nInspect the evidence →\n\n\nEspañol\nResumen del estudio, resultados y alcance.\nLeer en español →\n\n\nThis case complements my work in mathematics and data analysis. Explore my project on gamification and mathematics apps →\nSource: Iglesias García, L. (2026). Estudio de la flexibilidad matemática en Educación Primaria a través de juegos de resolución múltiple. Primary Education bachelor’s thesis, Universidad Rey Juan Carlos. This adaptation presents aggregate evidence; the original PDF and participant records are not redistributed.\nView the official university record\nThe university repository provides the thesis title, author, date and academic supervisors. Access to the full thesis PDF is restricted; this portfolio presents selected aggregate findings and methodological details."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html",
+    "href": "mathematical-flexibility/evidence.html",
+    "title": "Evidence & data availability",
+    "section": "",
+    "text": "Case study · Methods · Results & evidence · Español · All projects"
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#evidence-and-verification",
+    "href": "mathematical-flexibility/evidence.html#evidence-and-verification",
+    "title": "Evidence & data availability",
+    "section": "Evidence and verification",
+    "text": "Evidence and verification\nThis case study presents aggregate results documented in the 2026 thesis. Questionnaire summaries were checked against its paired-score table during preparation of the portfolio. The original JASP project is unavailable: inferential results are attributed to the thesis and are not presented as an independently reproduced analysis.\nThe portfolio includes session-level strategy-origin counts as reported. Criterion-level ratings and assessment rubrics are not distributed because the criterion lists in the methods summary and appendix differ."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#provenance",
+    "href": "mathematical-flexibility/evidence.html#provenance",
+    "title": "Evidence & data availability",
+    "section": "Provenance",
+    "text": "Provenance\nAll study figures on this website draw on the privately supplied 2026 thesis. Page numbers below refer to the printed document, not the PDF viewer index. The PDF itself is not redistributed.\n\n\n\n\n\n\n\n\nItem\nSource\nPortfolio treatment\n\n\n\n\nClass size, sample and selection\nSections 3.2.1–3.2.2, pp. 17–18\nSummarised; no participant codes\n\n\nSession sequence\nTable 3.6, pp. 22–23\nRedrawn as a study diagram\n\n\nWhole-sample questionnaire statistics\nTable 4.2, pp. 29–30\nTranscribed; checked against Table 4.3 during private audit\n\n\nStrategy-origin counts\nTable 4.1, p. 28\nTranscribed and redrawn; missing/not-observable category retained\n\n\nQualitative interpretation\nSections 4.1 and 5.3\nGeneralised; no quotes, diagnoses or individual trajectories\n\n\nLimitations\nSections 3.7 and 6.1\nSummarised and supplemented by clearly identified portfolio audit observations"
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#strategy-origin-counts",
+    "href": "mathematical-flexibility/evidence.html#strategy-origin-counts",
+    "title": "Evidence & data availability",
+    "section": "Strategy-origin counts",
+    "text": "Strategy-origin counts\n\n\n\n\n\n\n\n\n\n\n\nSession\nSpontaneous\nPeer-prompted\nTeacher-prompted\nNot observable\nTotal\n\n\n\n\nFracciChef (S2)\n56\n22\n9\n3\n90\n\n\nDominó Fraccionario (S3)\n68\n16\n4\n2\n90\n\n\nFraccUNO (S4)\n64\n14\n6\n6\n90\n\n\nTotal\n188\n52\n19\n11\n270\n\n\n\nCounts are repeated criterion ratings, six per participant per session. Categories are mutually exclusive as tabulated. Percentages use all ratings, including not-observable entries in the denominator. No participant-level breakdown is included."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#questionnaire-summaries",
+    "href": "mathematical-flexibility/evidence.html#questionnaire-summaries",
+    "title": "Evidence & data availability",
+    "section": "Questionnaire summaries",
+    "text": "Questionnaire summaries\n\n\n\nMeasure\nBaseline\nPost-assessment\n\n\n\n\nN, paired participants\n15\n15\n\n\nMedian\n14\n17\n\n\nMean\n14.27\n16.93\n\n\nSample standard deviation\n4.27\n2.49\n\n\nMinimum–maximum\n8–20\n13–20\n\n\n\nSource: thesis Table 4.2. Score range: 0–20. Descriptives were checked against Table 4.3 during the private portfolio audit. No individual records are distributed. The median of the paired changes is not inferred by subtracting the two marginal medians."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#statistical-reporting",
+    "href": "mathematical-flexibility/evidence.html#statistical-reporting",
+    "title": "Evidence & data availability",
+    "section": "Statistical reporting",
+    "text": "Statistical reporting\nThe source reports W = 0, p = 0.001 (two-sided), z = 3.18 and r = 0.58. It explicitly defines r = z / sqrt(N), with N = 30. That arithmetic gives about 0.581.\nSome paired-test implementations use the number of pairs instead. The rstatix documentation specifies that convention. Using the same reported z with 15 pairs would give approximately 0.821; excluding the two zero-difference pairs from the denominator would produce another value. These are denominator illustrations, not replacement effect estimates.\nAccordingly, the portfolio does not label r = 0.58 as an independently replicated result or promote it as a headline effectiveness claim. Because the original JASP project is unavailable, its calculation settings, tie handling and any continuity correction could not be verified. A normal approximation and a conditional exact calculation need not yield the same p-value.\nThe private audit reconstructed paired scores from Table 4.3 to check descriptive summaries. That is a new verification activity performed for this adaptation, not analysis code recovered from the original research. No paired records are included in the portfolio files."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#what-can-be-regenerated",
+    "href": "mathematical-flexibility/evidence.html#what-can-be-regenerated",
+    "title": "Evidence & data availability",
+    "section": "What can be regenerated?",
+    "text": "What can be regenerated?\nIncluded: a Python standard-library script that reads transcribed aggregate CSV files, checks totals and creates three SVG figures. This is figure-generation reproducibility.\nNot included: the original participant dataset, JASP project, item-level questionnaires, criterion-level ratings, coding files or field notes. The original statistical and qualitative analyses cannot be fully replicated from this repository.\nThe aggregate inputs are real thesis summaries, not synthetic pupil data. No synthetic dataset is used."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#data-shared-in-this-portfolio",
+    "href": "mathematical-flexibility/evidence.html#data-shared-in-this-portfolio",
+    "title": "Evidence & data availability",
+    "section": "Data shared in this portfolio",
+    "text": "Data shared in this portfolio\nOnly whole-sample summaries, newly drawn figures and game-rule illustrations are included. The source PDF, participant records, school identity, diagnostic information, pupil quotations, photographs and signed documentation are not distributed."
+  },
+  {
+    "objectID": "mathematical-flexibility/evidence.html#documentation",
+    "href": "mathematical-flexibility/evidence.html#documentation",
+    "title": "Evidence & data availability",
+    "section": "Documentation",
+    "text": "Documentation\n\nMain source: Iglesias García, L. (2026). Estudio de la flexibilidad matemática en Educación Primaria a través de juegos de resolución múltiple. Universidad Rey Juan Carlos.\nOriginal analysis tool reported by the thesis: JASP 0.18.\nPortfolio publishing: Quarto; new aggregate SVG generation: Python.\nAggregate score summaries, strategy-origin counts and figure-generation script.\n\nReturn to the case study"
+  },
+  {
     "objectID": "mathematical-flexibility/es.html",
     "href": "mathematical-flexibility/es.html",
     "title": "Flexibilidad matemática en Educación Primaria",
@@ -208,202 +404,6 @@
     "title": "Laura Iglesias García",
     "section": "Contact",
     "text": "Contact\nFor junior opportunities in Data Analytics, Business Intelligence or applied research:\nEmail · LinkedIn · GitHub"
-  },
-  {
-    "objectID": "SETUP.html",
-    "href": "SETUP.html",
-    "title": "Setup & publishing guide",
-    "section": "",
-    "text": "A one-time checklist to get this repository online and the report live on GitHub Pages.\n\n\n\nAdd the thesis PDF as report/TFG_Iglesias_Garcia.pdf.\nConfirm no personal data or local paths are committed (the raw/coded data files are already git-ignored; scripts use relative paths).\nIn _quarto.yml and README.md, replace YOUR_USERNAME with your GitHub handle.\n\n\n\n\ncd gamification-math-apps-analysis\ngit init\ngit add .\ngit commit -m \"Initial commit: TFG gamification analysis (R + Quarto)\"\n\n\n\nCreate an empty public repo on GitHub named gamification-math-apps-analysis (no README/License — this repo has them), then:\ngit remote add origin https://github.com/YOUR_USERNAME/gamification-math-apps-analysis.git\ngit branch -M main\ngit push -u origin main\n\n\n\nOption A — automatic (recommended, no local render). The included Action (.github/workflows/publish.yml) renders index.qmd and pushes the site to a gh-pages branch on every push to main. After the first run finishes: 1. Repo → Settings → Pages. 2. Source: Deploy from a branch → Branch gh-pages → /(root) → Save. 3. Wait ~1 min; your site is at https://YOUR_USERNAME.github.io/gamification-math-apps-analysis/.\nOption B — one command from your machine (needs Quarto installed):\nquarto publish gh-pages\nThis renders locally and pushes to gh-pages in one step.\n\n\n\n# Open the project at its root, then:\nsource(\"R/00_run_all.R\")\nAdd the data files first (see data/README.md). Scripts 03 and 04 need the extra coding files; comment them out in 00_run_all.R if you don’t have them — the modelling chain 05→13 does not depend on them.\n\n\n\n\nAdd the repo and the live report link to LinkedIn (Projects section).\nPin the repo on your GitHub profile.\nLink it in your CV and cover letters (great fit for data-analyst roles).\nOptionally publish a notebook version on Kaggle and deposit the thesis in the URJC institutional repository."
-  },
-  {
-    "objectID": "SETUP.html#before-you-push-clean-up-checklist",
-    "href": "SETUP.html#before-you-push-clean-up-checklist",
-    "title": "Setup & publishing guide",
-    "section": "",
-    "text": "Add the thesis PDF as report/TFG_Iglesias_Garcia.pdf.\nConfirm no personal data or local paths are committed (the raw/coded data files are already git-ignored; scripts use relative paths).\nIn _quarto.yml and README.md, replace YOUR_USERNAME with your GitHub handle."
-  },
-  {
-    "objectID": "SETUP.html#put-the-project-under-version-control",
-    "href": "SETUP.html#put-the-project-under-version-control",
-    "title": "Setup & publishing guide",
-    "section": "",
-    "text": "cd gamification-math-apps-analysis\ngit init\ngit add .\ngit commit -m \"Initial commit: TFG gamification analysis (R + Quarto)\""
-  },
-  {
-    "objectID": "SETUP.html#create-the-github-repository-and-push",
-    "href": "SETUP.html#create-the-github-repository-and-push",
-    "title": "Setup & publishing guide",
-    "section": "",
-    "text": "Create an empty public repo on GitHub named gamification-math-apps-analysis (no README/License — this repo has them), then:\ngit remote add origin https://github.com/YOUR_USERNAME/gamification-math-apps-analysis.git\ngit branch -M main\ngit push -u origin main"
-  },
-  {
-    "objectID": "SETUP.html#publish-the-report-to-github-pages",
-    "href": "SETUP.html#publish-the-report-to-github-pages",
-    "title": "Setup & publishing guide",
-    "section": "",
-    "text": "Option A — automatic (recommended, no local render). The included Action (.github/workflows/publish.yml) renders index.qmd and pushes the site to a gh-pages branch on every push to main. After the first run finishes: 1. Repo → Settings → Pages. 2. Source: Deploy from a branch → Branch gh-pages → /(root) → Save. 3. Wait ~1 min; your site is at https://YOUR_USERNAME.github.io/gamification-math-apps-analysis/.\nOption B — one command from your machine (needs Quarto installed):\nquarto publish gh-pages\nThis renders locally and pushes to gh-pages in one step."
-  },
-  {
-    "objectID": "SETUP.html#optional-run-the-full-analysis",
-    "href": "SETUP.html#optional-run-the-full-analysis",
-    "title": "Setup & publishing guide",
-    "section": "",
-    "text": "# Open the project at its root, then:\nsource(\"R/00_run_all.R\")\nAdd the data files first (see data/README.md). Scripts 03 and 04 need the extra coding files; comment them out in 00_run_all.R if you don’t have them — the modelling chain 05→13 does not depend on them."
-  },
-  {
-    "objectID": "SETUP.html#amplify-it-for-job-applications",
-    "href": "SETUP.html#amplify-it-for-job-applications",
-    "title": "Setup & publishing guide",
-    "section": "",
-    "text": "Add the repo and the live report link to LinkedIn (Projects section).\nPin the repo on your GitHub profile.\nLink it in your CV and cover letters (great fit for data-analyst roles).\nOptionally publish a notebook version on Kaggle and deposit the thesis in the URJC institutional repository."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Selected projects",
-    "section": "",
-    "text": "My projects combine professional Business Intelligence experience with mathematical and statistical analysis.\nEach case explains the question, my contribution, the methods used and the evidence available."
-  },
-  {
-    "objectID": "projects.html#climate-trends-in-spain-and-europe",
-    "href": "projects.html#climate-trends-in-spain-and-europe",
-    "title": "Selected projects",
-    "section": "Climate Trends in Spain and Europe",
-    "text": "Climate Trends in Spain and Europe\nProfessional project · PKF Attest · Power BI · Data analysis\n\nResearch question\nHow have temperature and precipitation patterns evolved across Spain and Europe?\n\n\nMy contribution\nCarried out the end-to-end analysis, from source data through to visual reporting and short and long report formats for clients.\nThe report was subsequently published by PKF Attest. Official publication (English) · Read the report (PDF, Spanish)\n\n\nSkills demonstrated\n\nData preparation and structuring.\nAnalysis of geographical and temporal patterns.\nPower BI visualisation.\nInterpretation and communication of findings.\nDelivery of an analytical project from data to reports."
-  },
-  {
-    "objectID": "projects.html#gamification-commercial-success-in-educational-math-apps",
-    "href": "projects.html#gamification-commercial-success-in-educational-math-apps",
-    "title": "Selected projects",
-    "section": "Gamification & Commercial Success in Educational Math Apps",
-    "text": "Gamification & Commercial Success in Educational Math Apps\nMathematics bachelor’s thesis · R · Statistical modelling\n\nResearch question\nWhich gamification features are associated with downloads of educational mathematics apps?\n\n\nMy contribution\nAnalysed a stratified sample of 200 apps drawn from a cleaned population of 4,218 educational mathematics apps.\nUsed multiple linear regression with HC3 robust standard errors, diagnostic checks and sensitivity analyses to examine associations between app features and downloads.\n\n\nSkills demonstrated\n\nData cleaning and sampling.\nStatistical modelling in R.\nModel diagnostics and robustness assessment.\nInterpretation of observational evidence.\nReproducible analytical documentation.\n\nRead the case study · Explore the code · Read the thesis"
-  },
-  {
-    "objectID": "projects.html#mathematical-flexibility-in-primary-education",
-    "href": "projects.html#mathematical-flexibility-in-primary-education",
-    "title": "Selected projects",
-    "section": "Mathematical Flexibility in Primary Education",
-    "text": "Mathematical Flexibility in Primary Education\nPrimary Education bachelor’s thesis · Mixed methods · JASP\n\nResearch question\nWhat mathematical strategies become visible during fraction games, and how do written assessment scores differ before and after the sequence?\n\n\nMy contribution\nDesigned three games, assessment instruments and a five-session classroom study.\nCombined written assessments, structured observation and qualitative records for a follow-up sample of 15 participants selected within a class of 22.\n\n\nSkills demonstrated\n\nResearch and instrument design.\nStratified sampling and structured data collection.\nDescriptive statistics and paired non-parametric testing.\nQuantitative and qualitative interpretation.\nCritical evaluation of measurement and study limitations.\n\nRead the case study · Methods · Results & evidence"
-  },
-  {
-    "objectID": "projects.html#discuss-my-work",
-    "href": "projects.html#discuss-my-work",
-    "title": "Selected projects",
-    "section": "Discuss my work",
-    "text": "Discuss my work\nFor junior opportunities in Data Analytics, Business Intelligence or applied research:\nAbout my experience · Email · LinkedIn"
-  },
-  {
-    "objectID": "mathematical-flexibility/evidence.html",
-    "href": "mathematical-flexibility/evidence.html",
-    "title": "Evidence & data availability",
-    "section": "",
-    "text": "Case study · Methods · Results & evidence · Español · All projects"
-  },
-  {
-    "objectID": "mathematical-flexibility/evidence.html#evidence-and-verification",
-    "href": "mathematical-flexibility/evidence.html#evidence-and-verification",
-    "title": "Evidence & data availability",
-    "section": "Evidence and verification",
-    "text": "Evidence and verification\nThis case study presents aggregate results documented in the 2026 thesis. Questionnaire summaries were checked against its paired-score table during preparation of the portfolio. The original JASP project is unavailable: inferential results are attributed to the thesis and are not presented as an independently reproduced analysis.\nThe portfolio includes session-level strategy-origin counts as reported. Criterion-level ratings and assessment rubrics are not distributed because the criterion lists in the methods summary and appendix differ."
-  },
-  {
-    "objectID": "mathematical-flexibility/evidence.html#provenance",
-    "href": "mathematical-flexibility/evidence.html#provenance",
-    "title": "Evidence & data availability",
-    "section": "Provenance",
-    "text": "Provenance\nAll study figures on this website draw on the privately supplied 2026 thesis. Page numbers below refer to the printed document, not the PDF viewer index. The PDF itself is not redistributed.\n\n\n\n\n\n\n\n\nItem\nSource\nPortfolio treatment\n\n\n\n\nClass size, sample and selection\nSections 3.2.1–3.2.2, pp. 17–18\nSummarised; no participant codes\n\n\nSession sequence\nTable 3.6, pp. 22–23\nRedrawn as a study diagram\n\n\nWhole-sample questionnaire statistics\nTable 4.2, pp. 29–30\nTranscribed; checked against Table 4.3 during private audit\n\n\nStrategy-origin counts\nTable 4.1, p. 28\nTranscribed and redrawn; missing/not-observable category retained\n\n\nQualitative interpretation\nSections 4.1 and 5.3\nGeneralised; no quotes, diagnoses or individual trajectories\n\n\nLimitations\nSections 3.7 and 6.1\nSummarised and supplemented by clearly identified portfolio audit observations"
-  },
-  {
-    "objectID": "mathematical-flexibility/evidence.html#strategy-origin-counts",
-    "href": "mathematical-flexibility/evidence.html#strategy-origin-counts",
-    "title": "Evidence & data availability",
-    "section": "Strategy-origin counts",
-    "text": "Strategy-origin counts\n\n\n\n\n\n\n\n\n\n\n\nSession\nSpontaneous\nPeer-prompted\nTeacher-prompted\nNot observable\nTotal\n\n\n\n\nFracciChef (S2)\n56\n22\n9\n3\n90\n\n\nDominó Fraccionario (S3)\n68\n16\n4\n2\n90\n\n\nFraccUNO (S4)\n64\n14\n6\n6\n90\n\n\nTotal\n188\n52\n19\n11\n270\n\n\n\nCounts are repeated criterion ratings, six per participant per session. Categories are mutually exclusive as tabulated. Percentages use all ratings, including not-observable entries in the denominator. No participant-level breakdown is included."
-  },
-  {
-    "objectID": "mathematical-flexibility/evidence.html#questionnaire-summaries",
-    "href": "mathematical-flexibility/evidence.html#questionnaire-summaries",
-    "title": "Evidence & data availability",
-    "section": "Questionnaire summaries",
-    "text": "Questionnaire summaries\n\n\n\nMeasure\nBaseline\nPost-assessment\n\n\n\n\nN, paired participants\n15\n15\n\n\nMedian\n14\n17\n\n\nMean\n14.27\n16.93\n\n\nSample standard deviation\n4.27\n2.49\n\n\nMinimum–maximum\n8–20\n13–20\n\n\n\nSource: thesis Table 4.2. Score range: 0–20. Descriptives were checked against Table 4.3 during the private portfolio audit. No individual records are distributed. The median of the paired changes is not inferred by subtracting the two marginal medians."
-  },
-  {
-    "objectID": "mathematical-flexibility/evidence.html#statistical-reporting",
-    "href": "mathematical-flexibility/evidence.html#statistical-reporting",
-    "title": "Evidence & data availability",
-    "section": "Statistical reporting",
-    "text": "Statistical reporting\nThe source reports W = 0, p = 0.001 (two-sided), z = 3.18 and r = 0.58. It explicitly defines r = z / sqrt(N), with N = 30. That arithmetic gives about 0.581.\nSome paired-test implementations use the number of pairs instead. The rstatix documentation specifies that convention. Using the same reported z with 15 pairs would give approximately 0.821; excluding the two zero-difference pairs from the denominator would produce another value. These are denominator illustrations, not replacement effect estimates.\nAccordingly, the portfolio does not label r = 0.58 as an independently replicated result or promote it as a headline effectiveness claim. Because the original JASP project is unavailable, its calculation settings, tie handling and any continuity correction could not be verified. A normal approximation and a conditional exact calculation need not yield the same p-value.\nThe private audit reconstructed paired scores from Table 4.3 to check descriptive summaries. That is a new verification activity performed for this adaptation, not analysis code recovered from the original research. No paired records are included in the portfolio files."
-  },
-  {
-    "objectID": "mathematical-flexibility/evidence.html#what-can-be-regenerated",
-    "href": "mathematical-flexibility/evidence.html#what-can-be-regenerated",
-    "title": "Evidence & data availability",
-    "section": "What can be regenerated?",
-    "text": "What can be regenerated?\nIncluded: a Python standard-library script that reads transcribed aggregate CSV files, checks totals and creates three SVG figures. This is figure-generation reproducibility.\nNot included: the original participant dataset, JASP project, item-level questionnaires, criterion-level ratings, coding files or field notes. The original statistical and qualitative analyses cannot be fully replicated from this repository.\nThe aggregate inputs are real thesis summaries, not synthetic pupil data. No synthetic dataset is used."
-  },
-  {
-    "objectID": "mathematical-flexibility/evidence.html#data-shared-in-this-portfolio",
-    "href": "mathematical-flexibility/evidence.html#data-shared-in-this-portfolio",
-    "title": "Evidence & data availability",
-    "section": "Data shared in this portfolio",
-    "text": "Data shared in this portfolio\nOnly whole-sample summaries, newly drawn figures and game-rule illustrations are included. The source PDF, participant records, school identity, diagnostic information, pupil quotations, photographs and signed documentation are not distributed."
-  },
-  {
-    "objectID": "mathematical-flexibility/evidence.html#documentation",
-    "href": "mathematical-flexibility/evidence.html#documentation",
-    "title": "Evidence & data availability",
-    "section": "Documentation",
-    "text": "Documentation\n\nMain source: Iglesias García, L. (2026). Estudio de la flexibilidad matemática en Educación Primaria a través de juegos de resolución múltiple. Universidad Rey Juan Carlos.\nOriginal analysis tool reported by the thesis: JASP 0.18.\nPortfolio publishing: Quarto; new aggregate SVG generation: Python.\nAggregate score summaries, strategy-origin counts and figure-generation script.\n\nReturn to the case study"
-  },
-  {
-    "objectID": "mathematical-flexibility/index.html",
-    "href": "mathematical-flexibility/index.html",
-    "title": "Making mathematical thinking visible",
-    "section": "",
-    "text": "Case study · Methods · Results & evidence · Español · All projects"
-  },
-  {
-    "objectID": "mathematical-flexibility/index.html#findings",
-    "href": "mathematical-flexibility/index.html#findings",
-    "title": "Making mathematical thinking visible",
-    "section": "Findings at a glance",
-    "text": "Findings at a glance\n\n\n01\n\nHigher written scores\nMedian questionnaire scores rose from 14 to 17 / 20 in the follow-up sample. Thirteen scores increased and two stayed at the maximum.\n\n\n\n02\n\nVisible strategy choices\n188 of 270 criterion ratings during the three games were coded as spontaneous. Other ratings recorded peer or teacher prompting, or were not observable.\n\n\n\n03\n\nDifferent evidence across formats\nQualitative observations raised questions about reasoning visible during play and the evidence captured by written tasks.\n\n\n\n\nWritten assessment: before and after\n\n   \n\nWritten questionnaire scores. Medians are the primary summary; means are complementary. Source: thesis Table 4.2.\n\n\nThe mean change was +2.67 points out of 20. The thesis reports a paired Wilcoxon test with W = 0, two-sided p = 0.001. Statistical detail and source tables →\n\n\nStrategy origins during play\n\n   \n\nStrategy-origin ratings. Each session contains 90 criterion ratings from the same 15 pupils. Source: thesis Table 4.1.\n\n\nSpontaneous strategies were the most frequent category in every session. Each game used a different rubric and appeared in a fixed order, so these bars describe observations rather than rank game effectiveness. Accessible counts and provenance →"
-  },
-  {
-    "objectID": "mathematical-flexibility/index.html#design",
-    "href": "mathematical-flexibility/index.html#design",
-    "title": "Making mathematical thinking visible",
-    "section": "Research design",
-    "text": "Research design\nQuestion: What strategies become visible in multiple-solution fraction games, and how do written scores differ before and after the sequence?\nI combined a pre-post comparison with observation and qualitative records. A class of 22 pupils completed the baseline questionnaire. Five participants were selected by lottery within each of three baseline competence strata, producing a 15-participant follow-up sample.\n\n\n\nFive sessions combined written assessment with classroom observation.\n\n\n\n\n\n\n\n\n\nEvidence source\nWhat it contributed\n\n\n\n\nWritten questionnaires, scored out of 20\nFraction knowledge, representations and explanations before and after the sequence\n\n\nSix-criterion rubric for each game\nStructured evidence of reasoning within each activity\n\n\nStrategy-origin codes\nWhether a strategy appeared spontaneously or following prompting\n\n\nField notes and open responses\nContext for interpreting numerical patterns and differences between formats\n\n\n\nThe approach was mixed-methods, with qualitative emphasis. Written scores, observation and field notes were interpreted together. Sampling, instruments and analysis decisions →"
-  },
-  {
-    "objectID": "mathematical-flexibility/index.html#intervention",
-    "href": "mathematical-flexibility/index.html#intervention",
-    "title": "Making mathematical thinking visible",
-    "section": "Inside the intervention",
-    "text": "Inside the intervention\nI designed three games to create more than one valid route to a solution. The aim was to make procedure choice, representation and adaptation observable.\n\n01 / Procedural emphasis\n\nFracciChef\n\n\n\nIllustrative game mechanic: two quarter cards or one half card can satisfy a recipe requiring two quarters.\n\n\nPlayers combine ingredient cards to complete a recipe. Different equivalent combinations make it possible to observe which route a player chooses and how they justify it.\n\n\n\n02 / Representational emphasis\n\nDominó Fraccionario\n\n\n\nIllustrative equivalence: a half-shaded rectangle and the symbolic fraction two quarters represent the same quantity.\n\n\nA valid connection depends on equivalent quantities across visual and symbolic forms. Matching values requires looking beyond identical notation.\n\n\n\n03 / Strategic emphasis\n\nFraccUNO\n\n\n\nIllustrative choice: a blue half card can be followed by a blue three-quarters card through colour, or a red two-quarters card through equivalent value.\n\n\nPlayers can have several legal moves. Choosing between a colour match and an equivalent value creates an opportunity to explain and adapt a strategy.\n\n\nThe diagrams above are newly drawn explanations of documented rules, not reproductions of pupil work or the original card artwork. Each game was observed in one session, so game mechanics, rubric and order cannot be separated analytically."
-  },
-  {
-    "objectID": "mathematical-flexibility/index.html#contribution",
-    "href": "mathematical-flexibility/index.html#contribution",
-    "title": "Making mathematical thinking visible",
-    "section": "My analytical contribution",
-    "text": "My analytical contribution\nMy contribution covered the research process from the question to interpretation. The decisions below show the methodological work behind the findings.\n\n\n\n\n\n\n\n\nDecision\nPurpose\nEvidence of skill\n\n\n\n\nInclude different baseline competence levels\nObserve a range of starting profiles\nSampling design\n\n\nDefine rubrics and strategy-origin codes\nStructure classroom observations\nOperationalisation and data collection\n\n\nCompare paired questionnaire scores\nExamine within-participant change\nDescriptive statistics and non-parametric testing\n\n\nRead scores alongside field notes\nInvestigate agreement and divergence between sources\nMixed-methods interpretation\n\n\nExamine ceiling effects and assessment demands\nBound the claims supported by the study\nMeasurement critique and analytical judgement\n\n\n\nTools and scope: the original thesis reports JASP 0.18 for numerical analysis. Quarto and the Python aggregate-figure script were added later for this portfolio. The script regenerates figures from transcribed summaries; it does not reproduce the full original analysis."
-  },
-  {
-    "objectID": "mathematical-flexibility/index.html#interpretation",
-    "href": "mathematical-flexibility/index.html#interpretation",
-    "title": "Making mathematical thinking visible",
-    "section": "Interpretation & next study",
-    "text": "Interpretation & next study\nThe study documents higher written scores after the sequence and a range of strategies during play. Its broader contribution is a research process that considers both performance and how evidence of performance is collected.\nThis exploratory study describes a change within one classroom. The absence of a control group, differences between assessment conditions and the short follow-up limit the conclusions. Study limitations and measurement details →\nA stronger next study would combine a comparison group, delayed follow-up, harmonised assessment conditions and independent observation. Full methodological limitations →"
-  },
-  {
-    "objectID": "mathematical-flexibility/index.html#documentation",
-    "href": "mathematical-flexibility/index.html#documentation",
-    "title": "Making mathematical thinking visible",
-    "section": "Documentation & related work",
-    "text": "Documentation & related work\n\n\nMethods\nSampling, instruments, procedure and analytical choices.\nExplore the methodology →\n\n\nEvidence & data\nSource tables, statistical notes and data availability.\nInspect the evidence →\n\n\nEspañol\nResumen del estudio, resultados y alcance.\nLeer en español →\n\n\nThis case complements my work in mathematics and data analysis. Explore my project on gamification and mathematics apps →\nSource: Iglesias García, L. (2026). Estudio de la flexibilidad matemática en Educación Primaria a través de juegos de resolución múltiple. Primary Education bachelor’s thesis, Universidad Rey Juan Carlos. This adaptation presents aggregate evidence; the original PDF and participant records are not redistributed.\nView the official university record\nThe university repository provides the thesis title, author, date and academic supervisors. Access to the full thesis PDF is restricted; this portfolio presents selected aggregate findings and methodological details."
   },
   {
     "objectID": "gamification.html",
