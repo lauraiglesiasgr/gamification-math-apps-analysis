@@ -20,6 +20,8 @@ website:
         text: Projects
       - href: about.qmd
         text: About
+      - href: Laura_Iglesias_García_CV.pdf
+        text: CV     
     right:
       - icon: linkedin
         text: LinkedIn
