@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Laura Iglesias García">
-<meta name="dcterms.date" content="2026-11-12">
+<meta name="dcterms.date" content="2026-11-13">
 <meta name="description" content="Which gamification features are associated with app downloads? An observational analysis of 200 educational mathematics apps, using regression, robust standard errors and sensitivity checks.">
 
 <title>Gamification &amp; Popularity of Educational Math Apps – Laura Iglesias García</title>
@@ -84,7 +84,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-52ffe4dbadc2eabe6ae1d1383f2786ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-496f847ee350b268dad36aec68740ad7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,6 +114,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
+<link rel="stylesheet" href="portfolio.css">
 <meta property="og:title" content="Gamification &amp; Popularity of Educational Math Apps – Laura Iglesias García">
 <meta property="og:description" content="Which gamification features are associated with app downloads? An observational analysis of 200 educational mathematics apps, using regression, robust standard errors and sensitivity checks.">
 <meta property="og:image" content="https://lauraiglesiasgr.github.io/gamification-math-apps-analysis/figures/coefficient_plot.png">
@@ -220,7 +221,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 12, 2026</p>
+      <p class="date">November 13, 2026</p>
     </div>
   </div>
   
@@ -240,7 +241,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="research-question" class="level2">
 <h2 class="anchored" data-anchor-id="research-question">Research question</h2>
-<p>Incorporating game mechanics (gamification) is one of the most common design responses in educational apps. But which mechanics, if any, are actually associated with <strong>commercial success</strong> (downloads) of primary-school math apps on the Google Play Store? And is popularity a reliable signal of pedagogical quality?</p>
+<p>Incorporating game mechanics (gamification) is one of the most common design responses in educational apps. But which mechanics, if any, are actually associated with <strong>popularity</strong> (downloads) of primary-school math apps on the Google Play Store? The analysis also discusses the limits of using store metrics to assess educational quality; learning outcomes were not measured.</p>
 <p>This is an <strong>observational, cross-sectional</strong> study. All results describe <strong>statistical associations</strong>, not causal relationships.</p>
 </section>
 <section id="data-methods" class="level2">
@@ -275,7 +276,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="odd">
 <td>Coding</td>
-<td>5 binary gamification variables coded by manual interface inspection; inter-rater reliability via Cohen’s kappa (κ = 0.831 after reconciliation)</td>
+<td>5 binary gamification variables coded by manual interface inspection; the thesis reports mean Cohen’s kappa of 0.341 before reconciliation and 0.831 after reconciliation (30-app reliability subsample)</td>
 </tr>
 <tr class="even">
 <td>Model</td>
@@ -475,9 +476,11 @@ Figure&nbsp;3: Estimated regression coefficients and 95% confidence intervals. R
 </ul>
 <section id="limitations-and-next-steps" class="level3">
 <h3 class="anchored" data-anchor-id="limitations-and-next-steps">Limitations and next steps</h3>
+<p><em>Portfolio commentary: the following synthesis and follow-up proposals clarify the scope of the reported findings; they are not additional analyses performed for the thesis.</em></p>
 <p>This cross-sectional study measures associations at one point in time. Unmeasured differences between apps, such as age, marketing exposure or development resources, could influence the observed relationships.</p>
 <p>A stronger follow-up would use longitudinal data, additional confounder measurements and experimental or credible quasi-experimental designs. Educational effectiveness would require separate learning-outcome measures.</p>
 <hr>
+<p><a href="https://hdl.handle.net/10115/414797">Official university record</a></p>
 <p><em>Full written thesis (Spanish) in <a href="https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/tree/main/report"><code>/report</code></a>. Code under MIT license; data obtained from Kaggle (see <a href="https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/tree/main/data"><code>/data</code></a>).</em></p>
 
 

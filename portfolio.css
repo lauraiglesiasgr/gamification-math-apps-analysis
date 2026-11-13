@@ -1,0 +1,15 @@
+/* Shared portfolio layout: wraps naturally on narrow screens. */
+.portfolio-intro { max-width: 52rem; margin-bottom: 1.6rem; }
+.portfolio-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.2rem 0; }
+.portfolio-actions p { display: contents; }
+.portfolio-proof, .portfolio-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0 2.5rem; }
+.proof-item { padding: 1rem; background: #edf3f8; border-radius: .5rem; color: #20394e; }
+.proof-item strong { font-size: 1.3rem; }
+.proof-item p:last-child, .portfolio-card p:last-child { margin-bottom: 0; }
+.portfolio-card { padding: 1.25rem; border: 1px solid #d5dfe7; border-radius: .5rem; }
+.portfolio-card h3 { margin-top: 0; font-size: 1.25rem; }
+a:focus-visible { outline: 3px solid #1e648e; outline-offset: 3px; }
+@media (max-width: 760px) {
+  .portfolio-proof, .portfolio-grid { grid-template-columns: 1fr; }
+  .portfolio-actions .btn { text-align: center; }
+}
