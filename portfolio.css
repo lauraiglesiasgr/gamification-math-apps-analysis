@@ -13,3 +13,8 @@ a:focus-visible { outline: 3px solid #1e648e; outline-offset: 3px; }
   .portfolio-proof, .portfolio-grid { grid-template-columns: 1fr; }
   .portfolio-actions .btn { text-align: center; }
 }
+
+/* Keep wide research tables scrollable without widening small screens. */
+@media (max-width: 600px) {
+  main table { display: block; max-width: 100%; overflow-x: auto; }
+}
