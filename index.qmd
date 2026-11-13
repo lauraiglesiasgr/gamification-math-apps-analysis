@@ -1,121 +1,78 @@
 ---
 title: "Laura Iglesias García"
 subtitle: "Junior Data Analyst · Business Intelligence"
-description: >
-  Mathematics graduate with Business Intelligence experience at
-  PKF Attest. Power BI, SQL, Python and R.
+description: "Power BI, SQL and applied statistical analysis. Explore Laura Iglesias García's client experience and research projects."
 ---
 
-## Reliable data. Clear analysis. Useful reporting.
+::: {.portfolio-intro}
+I am a Mathematics graduate with client-facing Business Intelligence experience at **PKF Attest**. I turn business questions into **Power BI dashboards, validated metrics and statistical analysis**, using SQL, DAX, R and Python.
 
-I am a Mathematics graduate with practical Business Intelligence
-experience at PKF Attest, where I worked on live client projects
-involving data preparation, modelling and reporting.
+**Seeking junior Data Analyst and BI roles in Switzerland · Spanish citizen (EU) · Available immediately**
 
-I work mainly with **Power BI and SQL**, with **Python and R**
-for analysis. I am seeking a junior Data Analyst or BI Analyst
-role in an international, English-speaking team.
+::: {.portfolio-actions}
+[View projects](projects.qmd){.btn .btn-primary}
+[Download CV (PDF)](Laura_Iglesias_García_CV.pdf){.btn .btn-outline-primary}
+:::
+:::
 
-**Available immediately · Spanish citizen (EU)**
+::: {.portfolio-proof aria-label="Experience at a glance"}
+::: {.proof-item}
+**676 hours**
 
-[Download CV (PDF)](Laura_Iglesias_García_CV.pdf){.btn .btn-primary}
-[About me](about.qmd) ·
-[LinkedIn](https://www.linkedin.com/in/laura-iglesias-g) ·
-[Email](mailto:lauraiglesiasgarcia23@outlook.es)
+Business Intelligence internship
+:::
+::: {.proof-item}
+**3 client accounts**
 
-## Business Intelligence experience
+Weleda · Inncome · FAES Farma
+:::
+::: {.proof-item}
+**Published analysis**
 
-**PKF Attest · Madrid · Business Intelligence Intern · 676 hours**
+Contribution to PKF's Climate 2025 report
+:::
+:::
 
-The only intern in an eight-person BI team, working across
-three live client accounts.
+## Selected work
 
-- Developed Power BI dashboards and DAX calculations.
-- Prepared data with Power Query and worked with SQL Server
-  stored procedures and data models.
-- Investigated duplicate records affecting reconciliation
-  between two source systems.
-- Independently designed a client tracking report, from
-  requirements discussions to reporting pages.
-- Presented dashboards and trained business users.
+::: {.portfolio-grid}
+::: {.portfolio-card}
+### Climate trends
 
-[Read more about my experience](about.qmd#business-intelligence-experience)
+**Professional project · Power BI**
 
-## Selected projects
+Prepared and analysed temperature and precipitation data, producing visual reporting and client reports under senior supervision. The analysis contributed to PKF Attest's published Climate 2025 report.
 
-### Gamification & Commercial Success in Educational Math Apps
+[Project and official publication](projects.qmd#climate-trends-in-spain-and-europe)
+:::
+::: {.portfolio-card}
+### Educational app popularity
 
-**Mathematics bachelor's thesis · R · Statistical analysis**
+**Mathematics thesis · R**
 
-Which gamification features are associated with app downloads?
+Analysed a stratified sample of **200 apps** from a filtered population of **4,218**, using regression, robust standard errors and sensitivity checks.
 
-An exploratory analysis of 200 educational mathematics apps,
-using multiple linear regression, HC3 robust standard errors
-and sensitivity analyses.
+[Explore the analysis](gamification.qmd)
+:::
+::: {.portfolio-card}
+### Mathematical flexibility
 
-**Demonstrates:** data preparation, statistical modelling,
-diagnostics and interpretation.
+**Primary Education thesis · JASP**
 
-[Explore the case study](gamification.qmd) ·
-[View the code](https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/tree/main/R)
+Designed a five-session study with **15 follow-up participants**, combining paired written assessments, structured observation and qualitative interpretation.
 
-### Climate Trends in Spain and Europe
+[Explore the research](mathematical-flexibility/index.qmd)
+:::
+:::
 
-**PKF Attest project · End-to-end analysis · Published company report**
+## From source data to useful reporting
 
-Analysed temperature and precipitation trends across Spain
-and Europe, from source data through to short and long
-client reports. The report was subsequently published by
-PKF Attest.
+At PKF, I developed commercial reporting for Weleda and investigated billing discrepancies for Inncome. My work combined Power Query preparation, SQL exploration, Power BI modelling, DAX measures and communication with business users.
 
-**Demonstrates:** analysis of real-world data, interpretation
-of trends and communication of findings.
+[Read about my experience](about.qmd#business-intelligence-experience)
 
-[Official publication (English)](https://www.pkf-attest.es/tecnologia/en/novedades-itc/informe-clima-2025-datos-power-bi/) ·
-[Read the report (PDF, Spanish)](https://www.pkf-attest.es/tecnologia/wp-content/uploads/sites/2/2025/09/Informe-Clima-2025-min.pdf)
+## Let's talk
 
-### Mathematical Flexibility in Primary Education
+For junior opportunities in Data Analytics, Business Intelligence or applied research:
 
-**Primary Education bachelor's thesis · Mixed methods · JASP**
-
-Designed a five-session classroom study combining written
-assessments, structured observation and qualitative records.
-The follow-up sample comprised 15 participants within a
-class of 22.
-
-**Demonstrates:** research design, structured data collection,
-statistical analysis and critical evaluation of measurement.
-
-[Explore the case study](mathematical-flexibility/index.qmd) ·
-[Inspect the results](mathematical-flexibility/evidence.qmd)
-
-## Technical focus
-
-| Area | Tools |
-|---|---|
-| Business Intelligence | Power BI, DAX |
-| Data preparation and integration | Power Query, SSIS, Azure Data Factory |
-| Databases and modelling | SQL, SQL Server |
-| Analysis and statistics | Python, R, JASP |
-
-## Education
-
-**BSc in Mathematics**  
-Universidad Rey Juan Carlos · 2020–2026 · 240 ECTS
-
-**Bachelor's Degree in Primary Education**  
-Universidad Rey Juan Carlos · 2020–2026 · 240 ECTS
-
-Two separate qualifications completed concurrently through
-a six-year double-degree programme.
-
-[More about my background](about.qmd#education)
-
-## Contact
-
-Interested in discussing a junior opportunity in Data Analytics,
-Business Intelligence or applied research?
-
-[Email me](mailto:lauraiglesiasgarcia23@outlook.es) ·
-[Connect on LinkedIn](https://www.linkedin.com/in/laura-iglesias-g) ·
-[Explore my GitHub](https://github.com/lauraiglesiasgr)
+[Email me](mailto:lauraiglesiasgarcia23@outlook.es) · [LinkedIn](https://www.linkedin.com/in/laura-iglesias-g) · [About my background](about.qmd)

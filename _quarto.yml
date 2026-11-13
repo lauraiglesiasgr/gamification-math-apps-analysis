@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - "Laura_Iglesias_García_CV.pdf"
+    - "report/TFG_Iglesias_Garcia.pdf"
 
 website:
   title: "Laura Iglesias García"
@@ -38,3 +41,7 @@ website:
     right:
       - text: Contact
         href: mailto:lauraiglesiasgarcia23@outlook.es
+
+format:
+  html:
+    css: portfolio.css

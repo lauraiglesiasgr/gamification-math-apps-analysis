@@ -2,6 +2,7 @@
 title: "Laura Iglesias García"
 subtitle: "Junior Data Analyst · Business Intelligence"
 image: profile.png
+image-alt: "Portrait of Laura Iglesias García"
 about:
   template: trestles
   image-shape: round
@@ -30,12 +31,8 @@ I am looking for a junior Data Analyst or BI Analyst role in an
 international, English-speaking team, particularly in Switzerland.
 I am based in Madrid, available immediately and willing to relocate.
 
-[Explore my projects](#selected-projects) ·
+[Explore my projects](projects.qmd) ·
 [Get in touch](mailto:lauraiglesiasgarcia23@outlook.es)
-
-## Business Intelligence experience
-
-### PKF Attest · Madrid
 
 ## Business Intelligence experience
 
@@ -89,50 +86,6 @@ supported business users.
 This experience taught me to connect technical work with
 business questions: understand the source, validate the
 calculation and explain what the result can support.
-
-## Selected projects
-
-### Gamification & Commercial Success in Educational Math Apps
-
-**Mathematics bachelor's thesis · R · Statistical analysis**
-
-Investigated how gamification features relate to downloads of
-educational mathematics apps, using a sample of 200 Google Play
-apps and exploratory OLS analysis.
-
-The project examines model assumptions and robustness, while
-distinguishing commercial popularity from educational quality.
-
-[Read the case study](gamification.qmd) ·
-[Explore the code](https://github.com/lauraiglesiasgr/gamification-math-apps-analysis) ·
-[Read the thesis](https://github.com/lauraiglesiasgr/gamification-math-apps-analysis/blob/main/report/TFG_Iglesias_Garcia.pdf)
-
-### Climate Trends in Spain and Europe
-
-**PKF Attest project · Data analysis · Published company report**
-
-Carried out the end-to-end analysis of temperature and precipitation
-trends across Spain and Europe for a report later published by
-PKF Attest. The work covered source data through to short and
-long report formats for clients.
-
-[Official publication (English)](https://www.pkf-attest.es/tecnologia/en/novedades-itc/informe-clima-2025-datos-power-bi/) ·
-[Read the report (PDF, Spanish)](https://www.pkf-attest.es/tecnologia/wp-content/uploads/sites/2/2025/09/Informe-Clima-2025-min.pdf)
-
-### Mathematical Flexibility in Primary Education
-
-**Primary Education bachelor's thesis · Mixed methods · JASP**
-
-Designed and evaluated a five-session classroom study combining
-written assessments, structured observation and qualitative records.
-The study followed 15 participants selected through stratified
-sampling within a class of 22.
-
-The case study examines analytical choices, aggregate findings and
-the limits of different assessment formats. 
-
-[Explore the case study](mathematical-flexibility/index.qmd) ·
-[Inspect the results](mathematical-flexibility/evidence.qmd)
 
 ## Technical skills
 

@@ -22,11 +22,12 @@ across Spain and Europe?
 
 ### My contribution
 
-Carried out the end-to-end analysis, from source data
-through to visual reporting and short and long report
-formats for clients.
+Prepared and analysed AEMET/NOAA temperature and precipitation
+data covering 1973–2023. Developed Power BI visualisations and
+detailed and executive client reports under senior supervision.
 
-The report was subsequently published by PKF Attest.
+This analysis contributed to PKF Attest’s Climate 2025 report,
+published after the internship.
 [Official publication (English)](https://www.pkf-attest.es/tecnologia/en/novedades-itc/informe-clima-2025-datos-power-bi/) ·
 [Read the report (PDF, Spanish)](https://www.pkf-attest.es/tecnologia/wp-content/uploads/sites/2/2025/09/Informe-Clima-2025-min.pdf)
 
@@ -38,7 +39,7 @@ The report was subsequently published by PKF Attest.
 - Interpretation and communication of findings.
 - Delivery of an analytical project from data to reports.
 
-## Gamification & Commercial Success in Educational Math Apps
+## Gamification & Popularity in Educational Math Apps
 
 **Mathematics bachelor's thesis · R · Statistical modelling**
 
